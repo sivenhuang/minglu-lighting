@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+scrape-*.json
+scrape-*.js
+update-*.js
+generate-*.js
+scrape-progress.json
