@@ -57,12 +57,9 @@ function buildCategoryCards() {
             <div class="category-img">
                 ${img ? `<img src="${img}" alt="${c.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'category-icon\\'>💡</div>'">` : `<div class="category-icon">💡</div>`}
                 <div class="category-overlay">
+                    <h3>${c.name}</h3>
                     <p>Professional ${c.name.toLowerCase()} for commercial and municipal projects.</p>
                 </div>
-            </div>
-            <div class="category-body">
-                <h3>${c.name}</h3>
-                <span class="category-link">View Products →</span>
             </div>
         </a>`;
     }).join('');
