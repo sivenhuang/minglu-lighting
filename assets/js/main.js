@@ -16,6 +16,37 @@ function initHeaderScroll() {
     });
 }
 
+/* ===== Hero Carousel ===== */
+let heroSlideIndex = 0;
+let heroSlideTimer = null;
+
+function initHeroCarousel() {
+    const slides = document.querySelectorAll('#heroCarousel .hero-product-img');
+    const dots = document.querySelectorAll('#heroCarouselDots .dot');
+    if (!slides.length) return;
+    heroSlideTimer = setInterval(() => {
+        heroSlideIndex = (heroSlideIndex + 1) % slides.length;
+        updateHeroSlide(slides, dots);
+    }, 4000);
+}
+
+function setHeroSlide(n) {
+    const slides = document.querySelectorAll('#heroCarousel .hero-product-img');
+    const dots = document.querySelectorAll('#heroCarouselDots .dot');
+    heroSlideIndex = n;
+    updateHeroSlide(slides, dots);
+    clearInterval(heroSlideTimer);
+    heroSlideTimer = setInterval(() => {
+        heroSlideIndex = (heroSlideIndex + 1) % slides.length;
+        updateHeroSlide(slides, dots);
+    }, 4000);
+}
+
+function updateHeroSlide(slides, dots) {
+    slides.forEach((s, i) => s.classList.toggle('active', i === heroSlideIndex));
+    dots.forEach((d, i) => d.classList.toggle('active', i === heroSlideIndex));
+}
+
 /* ===== Mobile menu ===== */
 function initMobileMenu() {
     const btn = document.getElementById('mobileMenuBtn');
@@ -524,4 +555,5 @@ document.addEventListener('DOMContentLoaded', () => {
     buildFooterProductLinks();
     initStatsCounters();
     initProjectsPage();
+    initHeroCarousel();
 });
