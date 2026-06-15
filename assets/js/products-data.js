@@ -28,10 +28,6 @@ const CATEGORIES = [
         name: "Solar Light Tower"
     },
     {
-        slug: "solar-energy-system",
-        name: "Solar Energy System"
-    },
-    {
         slug: "led-street-light",
         name: "LED Street Light"
     },
@@ -42,253 +38,156 @@ const CATEGORIES = [
     {
         slug: "led-high-bay-light",
         name: "LED High Bay Light"
-    },
-    {
-        slug: "led-fishing-light",
-        name: "LED Fishing Light"
     }
 ];
 
 const PRODUCTS = [
-    // Solar Street Light
-    {
+{
         id: "p1",
-        name: "Commercial Solar Powered LED Street Lights",
+        name: "Solar street light",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
-        description: "Minglu Lighting CF2040 Commercial Solar Powered LED Street Lights • No wires needed and can be mounted onto wall or pole • Turns on and off automatically: Night sensor comes on at dusk. • Press the sw",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484469773951720597409792.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484471773951728847605760.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484470773951724896571392.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484463773951696421445632.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484468773951715828486144.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484403773951444691898368.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484404773951448559046656.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484462773951691300200448.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/Commercial_Solar_Powered_LED_Street_Lights.html",
+        description: "Minglu Lighting CF2040 High quality all in one solar street lights outdoor waterproof dusk to dawn • No wires needed and can be mounted onto wall or pole • Turns on and off automatically: Night sensor comes on at dusk. • Press the switch once to turn on.",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484469773951720597409792.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484471773951728847605760.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484470773951724896571392.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484463773951696421445632.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484462773951691300200448.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484468773951715828486144.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484403773951444691898368.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484404773951448559046656.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484405773951453097283584.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484406773951457543245824.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484407773951461221650432.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484408773951465344651264.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484409773951469211799552.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484411773951477860454400.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/All_in_One_LED_Solar_Street_Light_Dusk_to_Dawn.html",
         featured: true,
-        features: ["No wires needed and can be mounted onto wall or pole","High quality","Turns on and off automatically: Night sensor comes on at dusk.","Press the switch once to turn on.","Must be charged dircetly under the sun","Aluminum Alloy body","Excellent heat dissipation","Our LED solar street lights offer complete off-grid functionality and eliminates the need for complex wiring/trenching."],
+        features: ["No wires needed and can be mounted onto wall or pole","High quality","Turns on and off automatically: Night sensor comes on at dusk.","Press the switch once to turn on.","Must be charged dircetly under the sun","Aluminum Alloy body","Excellent heat dissipation"],
         specs: {"material":"Aluminum Alloy"},
-        applications: ["Street","Road","Garden","Yard","Patio","Driveway","Parking Lot","Commercial"],
+        applications: ["Garden","Deck","Yard","Patio","Driveway","Parking Lot","Roadway"],
     },
-    // Solar Street Light
-    {
+{
         id: "p2",
-        name: "Solar street lamp",
+        name: "Solar street light",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20230530090554179.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230530090554179.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600439.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600253.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090558900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090555623.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230530090553193.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090559916.webp"],
+        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20230530090555623.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230530090555623.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600439.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600253.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090558900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090553193.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090554179.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090559916.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230530090553193.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600253.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090627784.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090628249.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090629450.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090559916.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600439.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_lamp.html",
         featured: true,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Solar"],
     },
-    // Solar Street Light
-    {
+{
         id: "p3",
         name: "Smart solar street light",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Minglu Lighting LYA30 outdoor waterproof smart all in one led solar street light with remote LED light, solar panel, lithium battery and controller,all in one compact design. No wiring,100% solar powe",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426165311898.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426165311898.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165307978.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165307331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165310126.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165314446.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165312369.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165308874.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426165315762.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165313865.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165309687.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/smart_solar_street_light.html",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426165307331.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426165307331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165310126.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165311898.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165312369.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165307978.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165315762.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165313865.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165314446.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165308874.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165309687.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426165315762.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165625482.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165626248.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165308874.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165309687.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165307331.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_street_light_outdoor.html",
         featured: true,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Road","Pathway","Fence","Outdoor","Boat","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p4",
-        name: "All in one solar street lights dusk to dawn",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting CF2040 High quality all in one solar street lights outdoor waterproof dusk to dawn • No wires needed and can be mounted onto wall or pole • Turns on and off automatically: Night sensor",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/1745484462773951691300200448.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484462773951691300200448.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484469773951720597409792.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484470773951724896571392.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484471773951728847605760.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484463773951696421445632.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484403773951444691898368.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484404773951448559046656.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484468773951715828486144.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/all_in_one_solar_street_lights_dusk_to_dawn.html",
-        featured: false,
-        features: ["No wires needed and can be mounted onto wall or pole","High quality","Turns on and off automatically: Night sensor comes on at dusk.","Press the switch once to turn on.","Must be charged dircetly under the sun","Aluminum Alloy body","Excellent heat dissipation"],
-        specs: {"material":"Aluminum Alloy"},
-        applications: ["Street","Road","Garden","Yard","Patio","Driveway","Parking Lot","Wall"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p5",
         name: "All in One LED Solar Street Light Dusk to Dawn",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
-        description: "Minglu Lighting CF2040 High quality all in one solar street lights outdoor waterproof dusk to dawn • No wires needed and can be mounted onto wall or pole • Turns on and off automatically: Night sensor",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484469773951720597409792.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484471773951728847605760.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484470773951724896571392.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484463773951696421445632.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484462773951691300200448.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484403773951444691898368.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484404773951448559046656.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484468773951715828486144.webp"],
+        description: "Minglu Lighting CF2040 High quality all in one solar street lights outdoor waterproof dusk to dawn • No wires needed and can be mounted onto wall or pole • Turns on and off automatically: Night sensor comes on at dusk. • Press the switch once to turn on.",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484466773951709042102272.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484469773951720597409792.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484471773951728847605760.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484470773951724896571392.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484465773951705002987520.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484463773951696421445632.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484462773951691300200448.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484468773951715828486144.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1745484403773951444691898368.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484404773951448559046656.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484405773951453097283584.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484406773951457543245824.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484407773951461221650432.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484408773951465344651264.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484409773951469211799552.webp", "https://usimg.bjyyb.net/sites/63500/63544/1745484411773951477860454400.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/All_in_One_LED_Solar_Street_Light_Dusk_to_Dawn.html",
         featured: false,
         features: ["No wires needed and can be mounted onto wall or pole","High quality","Turns on and off automatically: Night sensor comes on at dusk.","Press the switch once to turn on.","Must be charged dircetly under the sun","Aluminum Alloy body","Excellent heat dissipation"],
         specs: {"material":"Aluminum Alloy"},
-        applications: ["Street","Road","Garden","Yard","Patio","Driveway","Parking Lot","Wall"],
+        applications: ["Garden","Deck","Yard","Patio","Driveway","Parking Lot","Roadway"],
     },
-    // Solar Street Light
-    {
+{
         id: "p6",
         name: "Solar powered led street light",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "The Most Reliable Solar Street Lighting For Your Next ProjectEvery street lighting project requires two essential conditions to ensure the roads safety for traffic and pedestrians. Reliable operation ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426163730406.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163730406.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163737162.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163721981.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163727586.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163733163.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163731108.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163729742.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163726252.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163728399.webp"],
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426163726252.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163726252.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163731108.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163730406.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163737162.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163721981.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163727586.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163728399.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163733163.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163729742.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163723564.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163725524.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163726252.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163727586.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163728399.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163729742.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163730406.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163731108.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163733163.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163734704.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163735832.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163736112.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163737162.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163738717.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_powered_led_street_light_.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Road","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p7",
-        name: "Integrated solar street light outdoor",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting LYA30 outdoor waterproof smart motion sensor integrated led solar street light LED light, solar panel, lithium battery and controller,all in one compact design. No wiring,100% solar po",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426165310126.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426165310126.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165311898.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165307331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165307978.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165314446.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165312369.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165308874.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426165315762.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165313865.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426165309687.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_street_light_outdoor.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Road","Pathway","Fence","Outdoor","Boat","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p8",
         name: "Solar powered led street light",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Minglu Lighting TR248A hot sale energy saving road all in one solar powered led street light outdoor ip65 waterproof Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongsha",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20230911162326833.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230911162326833.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162339202.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162340299.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162341309.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162321364.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162327948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162329794.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230911162409882.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162411445.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162331712.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162333235.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162334702.webp"],
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20230911162321364.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230911162321364.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162334702.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162339202.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162340299.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162341309.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162327948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162326833.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162329794.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162331712.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162333235.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230911162409882.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162411445.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162413934.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162414250.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162416168.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162417756.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162419337.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162420267.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162421453.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162423947.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230911162424683.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_powered_led_street_light.html",
         featured: false,
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65"},
         applications: ["Street","Road","Outdoor","Solar"],
     },
-    // Solar Street Light
-    {
+{
         id: "p9",
         name: "Intelligent solar street light",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "We have the ability to collaborate with you to design a system that is tailored to your needs and budget. To satisfy theneeds of your project, we sell single lamp post lights as well as larger custom ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426163256133.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163256133.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163304761.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163309283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163259539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163311683.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163301574.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163308982.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163259862.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163312166.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163302111.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163307990.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163306548.webp"],
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20240426163307990.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163307990.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163308982.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163304761.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163309283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163259539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163259862.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163311683.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163256133.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163301574.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163302111.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163306548.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20240426163257929.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163258595.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163259539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163259862.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163301574.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163302111.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163303975.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163304761.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163305466.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163306548.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163307990.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163308982.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163309283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163311683.webp", "https://usimg.bjyyb.net/sites/63500/63544/20240426163312166.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/intelligent_solar_street_light.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Road","Parking Lot","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p10",
-        name: "20w outdoor all in one solar street light manufacturer",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "1.    its poly-crystalline counterparts. The integrated 12.6V 10000mah Li-Ion rechargeable battery will be fully charged in 6-8 hours. 2.    INTEGRATED PIR & LIGHT SENSOR- The omnidirectional motion s",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527143721219.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527143721219.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527143724857.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527143732444.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527143728211.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527143729606.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/20w_outdoor_all_in_one_solar_street_light_manufacturer.html",
-        featured: false,
-        features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency 20W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"20W","ipRating":"IP65"},
-        powerOptions: ["20W"],
-        applications: ["Street","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p11",
         name: "30w all in one solar powered street lamp dusk to dawn with motion sensor",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Minglu Lighting 30w all in one solar powered street lamp dusk to dawn with motion sensor 30w all in one solar powered street lamp dusk to dawn with motion sensor 1.solar powered street lamp Easy insta",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601153451707.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601153451707.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601153451454.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601153452760.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601153452528.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601153448566.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601153449268.webp"],
-        detailImages: [],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/30w_all_in_one_solar_powered_street_lamp_dusk_to_dawn_with_motion_sensor.html",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145101905.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145101905.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145059456.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145100784.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145101578.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903103359812.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145102651.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103787.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103155.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145104286.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145104318.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145105852.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145105813.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_panel_street_lights.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 30W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"power":"30W"},
         powerOptions: ["30W"],
         applications: ["Street","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p12",
-        name: "40 watt energy saving automatic solar led street light all in one",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "40 watt energy saving automatic solar led street light all in one 1.HIGH QUALITY SOLAR PANEL &LED CHIPS: The All-in-one solar panel enables the large capacity lithium battery solar light to be fully c",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527145014390.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527145014390.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527145015111.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527145015107.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527145017437.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527145013152.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527145016147.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/40_watt_energy_saving_automatic_solar_led_street_light_all_in_one.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 40W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"40W","lumens":"4000LM"},
-        powerOptions: ["40W"],
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p13",
         name: "50w ip65 outdoor adjustable integrated motion sensor all in one led solar light street",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "50W IP65 outdoor adjustable motion sensor integrated all in one led solar street light Minglu Lighting solar powered street lighting is used to provide efficient lighting for highways, main roads, ave",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601160820753.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601160820753.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160821632.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160822664.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160819750.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160819211.webp"],
-        detailImages: [],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/50w_ip65_outdoor_adjustable_integrated_motion_sensor_all_in_one_led_solar_light_street.html",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601160144648.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601160144648.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160145945.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160146677.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160219718.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601160220334.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160220185.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160221675.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160221475.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160222712.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160222487.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160223538.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160224400.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160225240.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/50w_pir_motion_sensor_outdoor_waterproof_ip65_all_in_one_led_solar_street_light.html",
         featured: false,
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency 50W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"power":"50W","ipRating":"IP65"},
         powerOptions: ["50W"],
         applications: ["Street","Road","Highway","Garden","Outdoor","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p14",
-        name: "50w pir motion sensor outdoor waterproof ip65 all in one led solar street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "50w PIR motion sensor outdoor waterproof IP65 all in one led solar street light that in direct sunlight for charging. Can go from 50% power to full brightness when motion is detected. 1.Bright: motion",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601160146677.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601160146677.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160145945.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160219718.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601160144648.webp"],
-        detailImages: [],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/50w_pir_motion_sensor_outdoor_waterproof_ip65_all_in_one_led_solar_street_light.html",
-        featured: false,
-        features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency 50W-60W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"50W-60W","ipRating":"IP65","colorTemp":"6000K (Daylight White)"},
-        powerOptions: ["50W"],
-        applications: ["Street","Outdoor","Security","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p15",
         name: "50w 60w 80w 100w 120w solar led street light outdoor",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Minglu Lighting 50w 60w 80w 100w 120w solar led street light outdoor Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210531091837948.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531091837948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091838340.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091835983.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531091836465.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836993.webp"],
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210531091838340.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531091838340.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836993.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091837948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091835983.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836465.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531091836465.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836993.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091837948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091839844.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091838340.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/50w_60w_80w_100w_120w_solar_led_street_light_outdoor.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 50W-60W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
@@ -296,74 +195,7 @@ const PRODUCTS = [
         powerOptions: ["50W","60W","80W","100W","120W"],
         applications: ["Street","Outdoor","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p16",
-        name: "60W integrated solar power led street lamp outdoor",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "1. 0 electricity bills ,no wiring , Aluminum case,all in one intelligent design ,easy install and practical;Waterproof IP65. 2. Support3-5 cloudy or raining days' lighting. 3. Specific design for Road",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210531092556148.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531092556148.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531092557290.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531092558861.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531092558181.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531092559221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531092556650.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/60w_integrated_solar_power_led_street_lamp_outdoor.html",
-        featured: false,
-        features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency 60W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","3 Years warranty for peace of mind","Certified quality meeting international standards"],
-        specs: {"power":"60W","ipRating":"IP65","material":"Aluminum Alloy","warranty":"3 Years"},
-        powerOptions: ["60W"],
-        applications: ["Street","Road","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p17",
-        name: "Adjustable microwave motion sensor integrated solar street light dusk to dawn",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "1. Aluminum Body, Adjustable Installation lamp angle. 2. The light Control method: light sensor control (Dusk to Dawn)+ Microwave motion sensor. 3. MOTION AND LIGHT SENSOR BUILT IN – Our Solar Street ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210709165151271.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210709165151271.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165146451.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165154669.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165147620.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165145165.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165152525.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165150300.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210709165050273.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165052405.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/adjustable_microwave_motion_sensor_integrated_solar_street_light_dusk_to_dawn.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"lumens":"2500LM","material":"Aluminum Alloy","colorTemp":"6000K (Daylight White)"},
-        applications: ["Street","Security","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p18",
-        name: "All in one solar led street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting T11 all in one solar led street light Premium lighting solution with long and reliable service life This entirely self-sufficient off-grid solution for private, commercial and municipa",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527152418509.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527152418509.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527152419137.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527152419511.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527152420410.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527152417755.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527153836790.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/all_in_one_solar_led_street_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Commercial","Municipal","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p19",
-        name: "All in one solar led street light price",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting all in one solar led street light price Product Name：all in one solar led street light price Solar panel：15V 30W (solarworld monocrystalline silicon) Li-battery：12.6V,14AH 1. All in on",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601152331937.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601152331937.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152331913.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152332507.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152329276.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152330102.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601152333658.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152333971.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/all_in_one_solar_led_street_light_price.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 30W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"30W","battery":"LiFePO4 12.6V"},
-        powerOptions: ["30W"],
-        applications: ["Street","Garden","Wall","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p20",
         name: "All in one solar street light",
         category: "Solar Street Light",
@@ -371,566 +203,182 @@ const PRODUCTS = [
         description: "Minglu Lighting T5 All in one solar street light All in one solar street light is a new kind of solar led street light for the road lighting. Its solar panel, LED lamp, controller, battery are all int",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp",
         galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082827939.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082826109.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082828951.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145903970.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145903343.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/all_in_one_solar_street_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"material":"ABS + Aluminum"},
-        applications: ["Street","Road","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p21",
-        name: "All in one solar street light system",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting All in one solar street light system 1. Integrated design and source, high capacity LiFePO4 lithium battery, high energy, and long life, light weights, green and environmental protecti",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082826109.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082827939.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082828951.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145903970.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/all_in_one_solar_street_light_system.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"lumens":"180LM"},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p22",
-        name: "All in one solar street lights",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting TR348 All in one solar street light 80W 100W All in one solar street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, battery ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20220705170425516.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220705170425516.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170426531.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170427235.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230602102629214.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230602102628631.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170425879.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220705170408885.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/all_in_one_solar_street_lights.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 80W-100W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"80W-100W","material":"ABS + Aluminum"},
-        powerOptions: ["80W-100W"],
-        applications: ["Street","Road","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p23",
-        name: "aluminum alloy motion sensor solar lights outdoor pathway",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210528163343508.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210528163343508.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210528163341715.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210528163342550.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210528163341628.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/aluminum_alloy_motion_sensor_solar_lights_outdoor_pathway.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"material":"Aluminum Alloy"},
-        applications: ["Pathway","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p24",
-        name: "China factory price high lumen motion sensor solar street lights outdoor pathway 30w",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210709170454680.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210709170454680.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709170502696.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709170503858.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709170456339.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709170455862.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709170457229.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709170501362.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210709170526710.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709171028514.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/china_factory_price_high_lumen_motion_sensor_solar_street_lights_outdoor_pathway_30w.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 30W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"30W"},
-        powerOptions: ["30W"],
-        applications: ["Street","Pathway","Factory","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p25",
-        name: "China integrated led solar street light factory",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "china integrated led solar street light factory Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601151325706.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601151325706.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151324800.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151326924.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151324544.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601151326441.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/china_integrated_led_solar_street_light_factory.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Factory","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p26",
-        name: "commercial split solar street light 100w factory",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Time control + Light sensor control (Starts automatically at dusk, automatically closes at sunrise.) outdoor lighting: Main road, gardens, courtyards, basketball / football courts, parking lots, hotel",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527150634532.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527150634532.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527150636483.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903105803788.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903105804301.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527150633160.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527150635713.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527150633802.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/commercial_split_solar_street_light_100w_factory.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 100W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"100W"},
-        powerOptions: ["100W"],
-        applications: ["Street","Road","Garden","Yard","Parking Lot","Stadium","Court","Factory"],
-    },
-    // Solar Street Light
-    {
-        id: "p27",
-        name: "High power roadway street lights fixture company",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting high power roadway street lights fixture company Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145101578.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145101578.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145100784.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145101905.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145059456.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145102651.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103787.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103155.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/high_power_roadway_street_lights_fixture_company.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Road"],
-    },
-    // Solar Street Light
-    {
-        id: "p28",
-        name: "Integrated led solar street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting integrated led solar street light We can manufacture a wide range of solar street lights from 10 to 120W LED power. Subscribe to get the latest on sales, new releases and more Copyrigh",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601142854710.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601142854710.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601142854559.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601142853386.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601143014393.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601143014619.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_led_solar_street_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 120W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"120W"},
-        powerOptions: ["120W"],
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p29",
-        name: "Integrated solar street lamp suppliers",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting integrated solar street lamp suppliers Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601151849385.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601151849385.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151850599.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151851745.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151851454.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151848245.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601151849419.webp"],
-        detailImages: [],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_street_lamp_suppliers.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p30",
-        name: "Integrated solar street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting T6 Integrated solar street light outdoor Integrated design and source, high capacity LiFePO4 lithium battery, high energy, and long life, light weights, green and environmental protect",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084618368.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084619539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210618152008748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151320775.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084615942.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151651920.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084617166.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_street_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"lumens":"180LM"},
-        applications: ["Street","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p31",
-        name: "Integrated solar wall lights outdoor led solar motion sensor lights waterproof security lights fo...",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting Integrated Solar Wall Lights Outdoor, LED Solar Motion Sensor Lights, Waterproof Security Lights for Outdoor Wall,Back Yard,Fence,Garage This led solar wall light outdoor is bright eno",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601155720111.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601155720111.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155721272.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155804236.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155805869.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155717157.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155718257.webp"],
-        detailImages: [],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_wall_lights_outdoor_led_solar_motion_sensor_lights_waterproof_security_lights_for_outdoor_wall_back_yard_fence_garage.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Yard","Garage","Fence","Wall","Outdoor","Security","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p32",
-        name: "intergrated solar street lights motion sensor dusk to dawn",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210709165151271.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210709165151271.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165155414.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165101601.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165145165.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165146451.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165150300.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165152525.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210709165050273.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165052405.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210709165154669.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/intergrated_solar_street_lights_motion_sensor_dusk_to_dawn.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p33",
-        name: "Led solar street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting T6 LED solar street light outdoor Integrated design and source, high capacity LiFePO4 lithium battery, high energy, and long life, light weights, green and environmental protection, do",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084618368.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084619539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210618152008748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151320775.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084615942.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151651920.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084617166.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/led_solar_street_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"lumens":"180LM"},
-        applications: ["Street","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p34",
-        name: "Smart solar street light stand alone",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting smart solar street light stand alone Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145902151.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145902151.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145902679.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145903970.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145903343.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145904365.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/smart_solar_street_light_stand_alone.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p35",
-        name: "Solar energy street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting LY-C aluminum solar energy street light all in one All in one solar energy street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, control",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20221208152756760.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20221208152756760.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152754873.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152753706.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152752221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230602173545174.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152751224.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152755597.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20221208152753544.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_energy_street_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"material":"Aluminum Alloy"},
-        applications: ["Street","Road","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p36",
-        name: "Solar induction street lamp",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting T6 Solar induction street lamp Integrated design and source, high capacity LiFePO4 lithium battery, high energy, and long life, light weights, green and environmental protection, do no",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084618368.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084619539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210618152008748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903092217148.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084615942.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151651920.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084617166.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_induction_street_lamp.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"lumens":"180LM"},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p37",
-        name: "Solar led street lamp",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717094338739.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094338739.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094341591.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094339855.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094335331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094333721.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094413843.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094414877.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094417238.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_led_street_lamp.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p38",
-        name: "Solar led street lamp solar led street lamp",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "T3-30W                           T4-40W                          T5-50W                           T6-60W Subscribe to get the latest on sales, new releases and more Copyright 2026 Minglu Lig",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145100784.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145100784.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145101578.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145101905.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903103359812.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145059456.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145102651.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103787.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103155.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_led_street_lamp_solar_led_street_lamp.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 3W-30W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"3W-30W"},
-        powerOptions: ["3W-30W"],
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p39",
-        name: "Solar led street light manufacturers",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting solar led street light manufacturers Integrated solar led street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, battery are ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145902151.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145902151.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145902679.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp"],
-        detailImages: [],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_led_street_light_manufacturers.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"material":"ABS + Aluminum"},
-        applications: ["Street","Road","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p40",
-        name: "Solar light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting MTR-3M All in two solar street light outdoor Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173654283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173653221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173651463.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p41",
-        name: "Solar lights outdoor street",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Solar light outdoor street Integrated solar street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, battery are all integrated inside the lamp",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20220705170425516.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220705170425516.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170426531.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170427235.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220712173533472.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170425879.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220705170408885.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_lights_outdoor_street.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"material":"ABS + Aluminum"},
-        applications: ["Street","Road","Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p42",
-        name: "Solar panel street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting T5 Solar panel street light suppliers Integrated solar panel street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, battery a",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210903082828951.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210903082828951.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082827939.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082826109.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145903970.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145903970.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145903343.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145904365.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145905817.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145905513.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145906351.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145906999.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145907872.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145908789.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145908631.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_panel_street_light.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"material":"ABS + Aluminum"},
         applications: ["Street","Road","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p43",
-        name: "Solar panel street lights",
+{
+        id: "p22",
+        name: "All in one solar street lights",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
-        description: "T3-30W                           T4-40W                          T5-50W                           T6-60W Subscribe to get the latest on sales, new releases and more Copyright 2026 Minglu Lig",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145059456.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145059456.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145100784.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145101578.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145101905.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903103359812.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145102651.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103787.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145103155.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_panel_street_lights.html",
+        description: "Minglu Lighting TR348 All in one solar street light 80W 100W All in one solar street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, battery ",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20220712173533472.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220712173533472.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170425516.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170426531.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170427235.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170425879.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220705170408885.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170409342.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220705170410176.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_lights_outdoor_street.html",
         featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 3W-30W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"3W-30W"},
-        powerOptions: ["3W-30W"],
-        applications: ["Street","Solar"],
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 80W-100W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
+        specs: {"power":"80W-100W","material":"ABS + Aluminum"},
+        powerOptions: ["80W-100W"],
+        applications: ["Street","Road","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p44",
-        name: "Solar parking lot light",
+{
+        id: "p23",
+        name: "aluminum alloy motion sensor solar lights outdoor pathway",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
-        description: "Minglu Lighting TR248 led solar parking lot light Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20230530090554179.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230530090554179.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600439.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090600253.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090558900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090555623.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230530090553193.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230530090559916.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_parking_lot_light.html",
+        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210528163343508.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210528163343508.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210528163341715.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210528163341628.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210528163342550.webp"],
+        detailImages: [],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/aluminum_alloy_motion_sensor_solar_lights_outdoor_pathway.html",
+        featured: false,
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
+        specs: {"material":"Aluminum Alloy"},
+        applications: ["Pathway","Outdoor","Solar"],
+    },
+{
+        id: "p26",
+        name: "commercial split solar street light 100w factory",
+        category: "Solar Street Light",
+        categorySlug: "solar-street-light",
+        description: "Time control + Light sensor control (Starts automatically at dusk, automatically closes at sunrise.) outdoor lighting: Main road, gardens, courtyards, basketball / football courts, parking lots, hotel",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210531091835983.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531091835983.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836993.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091837948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091838340.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836465.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210531091836465.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091836993.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091837948.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091839844.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210531091838340.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/50w_60w_80w_100w_120w_solar_led_street_light_outdoor.html",
+        featured: false,
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 100W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
+        specs: {"power":"100W"},
+        powerOptions: ["100W"],
+        applications: ["Street","Road","Garden","Yard","Parking Lot","Stadium","Court","Factory"],
+    },
+{
+        id: "p30",
+        name: "Integrated solar street light",
+        category: "Solar Street Light",
+        categorySlug: "solar-street-light",
+        description: "Minglu Lighting T6 Integrated solar street light outdoor Integrated design and source, high capacity LiFePO4 lithium battery, high energy, and long life, light weights, green and environmental protect",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084618368.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084619539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210618152008748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084615942.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903092217148.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084617166.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151651920.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151652735.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151653284.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151653493.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151654128.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151655984.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151656342.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151657152.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151657372.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527152110386.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_induction_street_lamp.html",
+        featured: false,
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
+        specs: {"lumens":"180LM"},
+        applications: ["Street","Outdoor","Solar"],
+    },
+{
+        id: "p31",
+        name: "Integrated solar wall lights outdoor led solar motion sensor lights waterproof security lights fo...",
+        category: "Solar Street Light",
+        categorySlug: "solar-street-light",
+        description: "Minglu Lighting Integrated Solar Wall Lights Outdoor, LED Solar Motion Sensor Lights, Waterproof Security Lights for Outdoor Wall,Back Yard,Fence,Garage This led solar wall light outdoor is bright eno",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601155718257.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601155718257.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155720111.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155721272.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155804236.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155805869.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155717157.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601155806108.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155806530.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155807863.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155808723.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155808936.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155809621.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155810768.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155810398.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155811701.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155812519.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155813116.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601155813554.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_wall_lights_outdoor_led_solar_motion_sensor_lights_waterproof_security_lights_for_outdoor_wall_back_yard_fence_garage.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
-        applications: ["Parking Lot","Solar"],
+        applications: ["Yard","Garage","Fence","Wall","Outdoor","Security","Solar"],
     },
-    // Solar Street Light
-    {
+{
+        id: "p35",
+        name: "Solar energy street light",
+        category: "Solar Street Light",
+        categorySlug: "solar-street-light",
+        description: "Minglu Lighting LY-C aluminum solar energy street light all in one All in one solar energy street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, control",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20221208152751224.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20230602173545174.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152751224.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152756760.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152754873.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152753706.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152752221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152755597.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152753544.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20221208152751224.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152752221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152753706.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152753544.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152754873.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152755597.webp", "https://usimg.bjyyb.net/sites/63500/63544/20221208152756760.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_energy_street_light.html",
+        featured: false,
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
+        specs: {"material":"Aluminum Alloy"},
+        applications: ["Street","Road","Solar"],
+    },
+{
+        id: "p40",
+        name: "Solar light",
+        category: "Solar Street Light",
+        categorySlug: "solar-street-light",
+        description: "Minglu Lighting MTR-3M All in two solar street light outdoor Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173654283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173653221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173651463.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173650805.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173651463.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173653221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173654283.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_light_system.html",
+        featured: false,
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
+        specs: {},
+        applications: ["Street","Outdoor","Solar"],
+    },
+{
         id: "p45",
         name: "Solar parking lot lights",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717094339855.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094339855.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094338739.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094341591.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094335331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094343431.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094333721.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094413843.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094414877.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_parking_lot_lights.html",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717111130542.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717111130542.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111137668.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111134960.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111136265.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111139394.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111132541.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717111050679.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111052652.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111053977.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111054322.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111056999.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111058204.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111059736.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111100374.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111102865.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111103120.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111104226.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_powered_street_lights.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Parking Lot","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p46",
-        name: "Solar powered outdoor light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094332846.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094341591.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094335331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094343431.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094339855.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094413843.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094414877.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094416665.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_powered_outdoor_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Outdoor","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p47",
         name: "Solar powered street lights",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717111134960.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717111134960.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111136265.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111137668.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111139394.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111130542.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111132541.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717111050679.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111052652.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_powered_street_lights.html",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717094338739.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094333721.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094341591.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094339855.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094335331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094338739.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094413843.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094414877.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094416665.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094417238.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094419901.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094420357.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094422414.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094423116.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094425944.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094427950.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094428722.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094429278.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_led_street_lamp.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p48",
-        name: "Solar public road lighting",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094331595.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094338739.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094341591.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094335331.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094339855.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094333721.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717094413843.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717094414877.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_public_road_lighting.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Road","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p49",
-        name: "Solar street lamp-solar street lamp",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting T5 Integrated solar street lamp Integrated solar street lamp is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, battery are all integr",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145901866.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601145901900.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082827939.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082826109.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903082828951.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601145903970.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_lamp-solar_street_lamp.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"material":"ABS + Aluminum"},
-        applications: ["Street","Road","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p50",
-        name: "Solar street light price",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717111132541.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717111132541.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111134960.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111136265.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111137668.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111139394.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111130542.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717111050679.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717111052652.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_light_price.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p51",
         name: "Solar street light system",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Minglu Lighting Solar street light system Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173654283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173653221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173651463.webp"],
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173654283.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173653221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173651463.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220621173649967.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173650805.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173651463.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173652404.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173653221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220621173654283.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_light_system.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Solar"],
     },
-    // Solar Street Light
-    {
-        id: "p52",
-        name: "Solar street light wholesale74659",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Minglu Lighting solar street light wholesale street lighting; sidewalk lighting;roadway lighting;fence lighting; pathway lighting; campus lighting;park lighting; garden lighting;ramp lighting;boat doc",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210708163440164.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210708163440164.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210708163447420.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210708163445883.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210708163443166.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210708163439324.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210708163438713.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210708163442707.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527115157291.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527115158967.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_light_wholesale74659.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Road","Garden","Pathway","Fence","Boat","Solar"],
-    },
-    // Solar Street Light
-    {
-        id: "p53",
-        name: "T14 solar street light",
-        category: "Solar Street Light",
-        categorySlug: "solar-street-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601144750683.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601144750683.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601144750310.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601144751718.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601144752567.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601144752716.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601144753723.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601144753741.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/solar_street_lights.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Street","Solar"],
-    },
-    // Solar Street Light
-    {
+{
         id: "p54",
         name: "T6 60w all in one solar street light factory",
         category: "Solar Street Light",
         categorySlug: "solar-street-light",
         description: "Minglu Lighting T6-60W all in one solar street light factory All in one solar led street light is a new kind of solar led street light for the road lighting. Its solar panel,LED lamp, controller, batt",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527151318956.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151318956.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151318679.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151320775.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151725269.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151651920.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151652735.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/t6_60w_all_in_one_solar_street_light_factory.html",
+        image: "https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp",
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151316974.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084618368.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084619539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210618152008748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151320775.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151317155.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084615942.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210903084617166.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210527151651920.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151652735.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151653284.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151653493.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151654128.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151655984.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151656342.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151657152.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527151657372.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210527152110386.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Street_Light/integrated_solar_street_light.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 6W-60W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"power":"6W-60W","material":"ABS + Aluminum"},
         powerOptions: ["60W"],
         applications: ["Street","Road","Factory","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p55",
         name: "Solar led high mast light",
         category: "Solar Garden Light",
@@ -945,8 +393,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Parking Lot","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p56",
         name: "Solar ground light",
         category: "Solar Garden Light",
@@ -961,8 +408,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p57",
         name: "Solar buried light",
         category: "Solar Garden Light",
@@ -977,8 +423,7 @@ const PRODUCTS = [
         specs: {"ipRating":"IP68"},
         applications: ["Garden","Yard","Patio","Pathway","Driveway","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p58",
         name: "Solar flood light",
         category: "Solar Garden Light",
@@ -993,8 +438,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Pathway","Wall","Flood","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p59",
         name: "Solar high mast light",
         category: "Solar Garden Light",
@@ -1009,8 +453,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Parking Lot","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p60",
         name: "Solar Post Top Garden Light",
         category: "Solar Garden Light",
@@ -1025,8 +468,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Commercial","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p61",
         name: "Solar underground light",
         category: "Solar Garden Light",
@@ -1041,8 +483,7 @@ const PRODUCTS = [
         specs: {"ipRating":"IP68"},
         applications: ["Deck","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p62",
         name: "Solar garden light",
         category: "Solar Garden Light",
@@ -1057,8 +498,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Road","Highway","Garden","Parking Lot","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p63",
         name: "Solar spot light",
         category: "Solar Garden Light",
@@ -1073,8 +513,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Yard","Pathway","Driveway","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p64",
         name: "5w outdoor solar lawn light automatic onoff sensor for home lawn yard patio walkway driveway pathway",
         category: "Solar Garden Light",
@@ -1090,40 +529,37 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Garden","Yard","Patio","Lawn","Pathway","Walkway","Driveway","Outdoor"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p65",
         name: "Garden lights solar powered",
         category: "Solar Garden Light",
         categorySlug: "solar-garden-light",
         description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20220307084559580.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084559580.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084559243.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084600801.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084558651.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112217748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230602173545174.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084532575.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084533154.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084534762.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143719940.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112206483.webp"],
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084559580.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084559243.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084600801.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084558651.webp", ],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084532575.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084533154.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084534762.webp", ],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Garden_Light/garden_lights_solar_powered.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p66",
         name: "Garden solar light",
         category: "Solar Garden Light",
         categorySlug: "solar-garden-light",
         description: "Minglu Lighting SG-Y395 solar garden light outdoor Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20220303192228798.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220303192228798.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192225539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192227708.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192226984.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112217748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230602173545174.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220303192151376.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192152405.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143719940.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112206483.webp"],
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220303192228798.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192225539.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192227708.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192226984.webp", ],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220303192151376.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220303192152405.webp", ],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Garden_Light/garden_solar_light.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p67",
         name: "Led solar pathway lights",
         category: "Solar Garden Light",
@@ -1138,8 +574,7 @@ const PRODUCTS = [
         specs: {"material":"ABS + Aluminum","colorTemp":"3000K (Warm White)"},
         applications: ["Patio","Pathway","Driveway","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p68",
         name: "Outdoor solar garden light",
         category: "Solar Garden Light",
@@ -1154,8 +589,7 @@ const PRODUCTS = [
         specs: {"ipRating":"IP65","material":"Aluminum Alloy"},
         applications: ["Garden","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p69",
         name: "Outdoor waterproof integrated solar garden light for lawn patio yard walkway driveway",
         category: "Solar Garden Light",
@@ -1170,15 +604,14 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Yard","Patio","Lawn","Walkway","Driveway","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p70",
         name: "Solar garden lamp",
         category: "Solar Garden Light",
         categorySlug: "solar-garden-light",
         description: "Minglu Lighting SG-485 solar lamp outdoor garden street Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20220922143717972.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220922143717972.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143715783.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143716639.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143717990.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143719940.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143714794.webp"],
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220922143717972.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143715783.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143716639.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143717990.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143714794.webp"],
         detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220922143800763.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143801342.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Garden_Light/solar_garden_lamp.html",
         featured: false,
@@ -1186,8 +619,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Street","Garden","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p71",
         name: "Solar garden lights outdoor",
         category: "Solar Garden Light",
@@ -1202,8 +634,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Outdoor","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p72",
         name: "Solar led bollard light",
         category: "Solar Garden Light",
@@ -1218,40 +649,22 @@ const PRODUCTS = [
         specs: {},
         applications: ["Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p73",
         name: "Solar light for garden",
         category: "Solar Garden Light",
         categorySlug: "solar-garden-light",
         description: "Minglu Lighting SG-Y540 Solar garden light Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20220307084443515.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084443515.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084442722.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084441828.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112217748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20230602173545174.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220922143719940.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084501662.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084502739.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084504544.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084505725.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112206483.webp"],
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084443515.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084442722.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084441828.webp", ],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220307084501662.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084502739.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084504544.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220307084505725.webp", ],
         sourceUrl: "https://www.xiuben-donta.com/products/Solar_Garden_Light/solar_light_for_garden.html",
         featured: false,
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Solar"],
     },
-    // Solar Garden Light
-    {
-        id: "p74",
-        name: "solar powered garden lamps",
-        category: "Solar Garden Light",
-        categorySlug: "solar-garden-light",
-        description: "3 Ultra Bright White SMD LEDs (100 Lumens), Last up to 50,000 hours. Pre-installed Rechargeable 18650 4.2V, Last up to 3 Years before Replacing. Automatic: Solar powered, turns on automatically at dus",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601142658355.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601142658355.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601142659494.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601142659130.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601142700286.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601142701543.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601142657337.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/Solar_Garden_Light/solar_powered_garden_lamps.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","3 Years warranty for peace of mind","Certified quality meeting international standards"],
-        specs: {"lumens":"100LM","material":"Aluminum Alloy","warranty":"3 Years"},
-        applications: ["Garden","Solar"],
-    },
-    // Solar Garden Light
-    {
+{
         id: "p75",
         name: "solar powered led landscape lights",
         category: "Solar Garden Light",
@@ -1266,8 +679,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Landscape","Solar"],
     },
-    // Solar Garden Light
-    {
+{
         id: "p76",
         name: "UFO outdoor waterproof motion sensor led solar garden light 40w 50w",
         category: "Solar Garden Light",
@@ -1283,8 +695,7 @@ const PRODUCTS = [
         powerOptions: ["40W","50W"],
         applications: ["Garden","Outdoor","Solar"],
     },
-    // Solar Lawn Light
-    {
+{
         id: "p77",
         name: "Solar garden lights",
         category: "Solar Lawn Light",
@@ -1299,8 +710,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Solar"],
     },
-    // Solar Lawn Light
-    {
+{
         id: "p78",
         name: "Solar powered patio light",
         category: "Solar Lawn Light",
@@ -1315,8 +725,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Patio","Solar"],
     },
-    // Solar Lawn Light
-    {
+{
         id: "p79",
         name: "Solar yard lights",
         category: "Solar Lawn Light",
@@ -1331,8 +740,7 @@ const PRODUCTS = [
         specs: {"material":"PC + Aluminum"},
         applications: ["Yard","Solar"],
     },
-    // Solar Lawn Light
-    {
+{
         id: "p80",
         name: "Solar patio lights",
         category: "Solar Lawn Light",
@@ -1347,24 +755,7 @@ const PRODUCTS = [
         specs: {"material":"PC + Aluminum"},
         applications: ["Patio","Solar"],
     },
-    // Solar Lawn Light
-    {
-        id: "p81",
-        name: "Solar pathway lights",
-        category: "Solar Lawn Light",
-        categorySlug: "solar-lawn-light",
-        description: "1.SOLAR PANEL CHARGING and SENSITIVE AUTOMATIC ON/OFF:Solar pathway lights, built-in 4.2V 4400mAh large-capacity battery pack. Cordless,save electricity billing, more Eco-friendly with efficient solar",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210710105920584.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210710105920584.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105916128.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601141418431.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601141417419.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105914919.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105926839.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105924636.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210710105756254.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105758683.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105923816.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_lawn_light/solar_pathway_lights.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Pathway","Solar"],
-    },
-    // Solar Lawn Light
-    {
+{
         id: "p82",
         name: "Solar walkway light",
         category: "Solar Lawn Light",
@@ -1379,24 +770,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Walkway","Solar"],
     },
-    // Solar Lawn Light
-    {
-        id: "p83",
-        name: "Solar powered garden light",
-        category: "Solar Lawn Light",
-        categorySlug: "solar-lawn-light",
-        description: "1.SOLAR PANEL CHARGING and SENSITIVE AUTOMATIC ON/OFF:Solar powered garden light, built-in 4.2V 4400mAh large-capacity battery pack. Cordless,save electricity billing, more Eco-friendly with efficient",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210710105920584.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210710105920584.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105914919.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601141418431.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601141417419.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105918670.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105926839.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105924636.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210710105756254.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105758683.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105923816.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210710105916128.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_lawn_light/solar_powered_garden_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Garden","Solar"],
-    },
-    // Solar Lawn Light
-    {
+{
         id: "p84",
         name: "Solar courtyard lights",
         category: "Solar Lawn Light",
@@ -1411,24 +785,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Yard","Court","Solar"],
     },
-    // Solar Lawn Light
-    {
-        id: "p85",
-        name: "Solar powered yard light",
-        category: "Solar Lawn Light",
-        categorySlug: "solar-lawn-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210717091707740.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717091707740.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717091713408.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717091714392.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717091716857.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717091708131.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717091711497.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210717091705456.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210717091703926.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_lawn_light/solar_powered_yard_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Yard","Solar"],
-    },
-    // Solar Pillar Light
-    {
+{
         id: "p86",
         name: "SG-2 Solar pillar lights",
         category: "Solar Pillar Light",
@@ -1444,8 +801,7 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p87",
         name: "Solar pillar light",
         category: "Solar Pillar Light",
@@ -1461,8 +817,7 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Garden","Yard","Deck","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p88",
         name: "SG-1 Solar powered post lights",
         category: "Solar Pillar Light",
@@ -1478,8 +833,7 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p89",
         name: "SG-1 Solar deck post light",
         category: "Solar Pillar Light",
@@ -1495,8 +849,7 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p90",
         name: "Solar fence post lights",
         category: "Solar Pillar Light",
@@ -1511,8 +864,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Fence","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p91",
         name: "SG-2 Solar deck lights",
         category: "Solar Pillar Light",
@@ -1528,8 +880,7 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p92",
         name: "SG-2 Solar fence lights",
         category: "Solar Pillar Light",
@@ -1545,8 +896,7 @@ const PRODUCTS = [
         powerOptions: ["5W"],
         applications: ["Yard","Fence","Deck","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p93",
         name: "Sunlight entrance gate light",
         category: "Solar Pillar Light",
@@ -1562,8 +912,7 @@ const PRODUCTS = [
         powerOptions: ["8W"],
         applications: ["Garden","Gate","Outdoor","Solar"],
     },
-    // Solar Pillar Light
-    {
+{
         id: "p94",
         name: "Hot selling high lumen intelligent control solar gate pillar light outdoor garden wall square pos...",
         category: "Solar Pillar Light",
@@ -1578,40 +927,37 @@ const PRODUCTS = [
         specs: {},
         applications: ["Garden","Fence","Gate","Wall","Outdoor","Solar"],
     },
-    // Solar Strip Light
-    {
+{
         id: "p95",
         name: "Solar strip light",
         category: "Solar Strip Light",
         categorySlug: "solar-strip-light",
         description: "1.Solar Strip Light, Upgraded solar panel, powerful and solid, no electricity cost, eco-friendly. 2.Auto ON/OFF Lights, Bulit-in light sensor, auto on at night time, auto off at day time. 3.Long Worki",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20220921112215612.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112215612.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112208323.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112209221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112210495.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112217748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112215913.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112207121.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112206483.webp"],
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112215612.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112208323.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112209221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112210495.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112215913.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112207121.webp"],
+        detailImages: [],
         sourceUrl: "https://www.xiuben-donta.com/products/solar_strip_light/solar_strip_light.html",
         featured: true,
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65"},
         applications: ["Patio","Outdoor","Solar"],
     },
-    // Solar Strip Light
-    {
+{
         id: "p96",
         name: "Solar powered led strip light",
         category: "Solar Strip Light",
         categorySlug: "solar-strip-light",
         description: "1.Solar Strip Light, Upgraded solar panel, powerful and solid, no electricity cost, eco-friendly. 2.Auto ON/OFF Lights, Bulit-in light sensor, auto on at night time, auto off at day time. 3.Long Worki",
         image: "https://usimg.bjyyb.net/sites/63500/63544/20220921112208323.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112208323.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112209221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112210495.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112217748.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112215913.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112207121.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112206483.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112215612.webp"],
+        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112208323.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112209221.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112210495.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112215913.webp", "https://usimg.bjyyb.net/sites/63500/63544/20220921112207121.webp"],
+        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20220921112215612.webp"],
         sourceUrl: "https://www.xiuben-donta.com/products/solar_strip_light/solar_powered_led_strip_light.html",
         featured: false,
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65"},
         applications: ["Patio","Outdoor","Solar"],
     },
-    // Solar Flood Light
-    {
+{
         id: "p97",
         name: "Aluminum Outdoor Garden Pathway Yard Patio Lawn Garage Stadium Smart Reflector IP65 Waterproof LE...",
         category: "Solar Flood Light",
@@ -1627,8 +973,7 @@ const PRODUCTS = [
         powerOptions: ["100W-200W"],
         applications: ["Garden","Yard","Patio","Lawn","Pathway","Garage","Stadium","Outdoor"],
     },
-    // Solar Light Tower
-    {
+{
         id: "p98",
         name: "Solar light tower",
         category: "Solar Light Tower",
@@ -1643,109 +988,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Solar"],
     },
-    // Solar Energy System
-    {
-        id: "p99",
-        name: "Hybrid MPPT inverter solar power system 5000W",
-        category: "Solar Energy System",
-        categorySlug: "solar-energy-system",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607135009107.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135009107.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135009822.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135010673.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135011718.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135007319.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135008254.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_energy_system/hybrid_mppt_inverter_solar_power_system_5000w.html",
-        featured: true,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 5000W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"5000W"},
-        powerOptions: ["5000W"],
-        applications: ["Solar"],
-    },
-    // Solar Energy System
-    {
-        id: "p100",
-        name: "Solar power system portable energy storage power 300w power station 220v battery generator",
-        category: "Solar Energy System",
-        categorySlug: "solar-energy-system",
-        description: "Solar power system portable energy storage power 300W power station 220V battery generator Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607140342197.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607140342197.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607140343886.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607140343147.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607140340567.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607140341943.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607140344457.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607140345852.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_energy_system/solar_power_system_portable_energy_storage_power_300w_power_station_220v_battery_generator.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 300W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"300W","battery":"LiFePO4 220V"},
-        powerOptions: ["300W"],
-        applications: ["Solar"],
-    },
-    // Solar Energy System
-    {
-        id: "p101",
-        name: "Wrap Solar Panel",
-        category: "Solar Energy System",
-        categorySlug: "solar-energy-system",
-        description: "Minglu Lighting Cylinder Hexahedral Solar Panel Solar System Wrap Solar Tube Panel Directly on the Street Light Pole for Solar Pole Camera Wifi Modular Solution Six-sided daylighting, full energy—hexa",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/1761267657840151210334519296.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1761267657840151210334519296.webp", "https://usimg.bjyyb.net/sites/63500/63544/1761267653840151192751996928.webp", "https://usimg.bjyyb.net/sites/63500/63544/1766029854860125309530497024.webp", "https://usimg.bjyyb.net/sites/63500/63544/1761267652840151189337833472.webp", "https://usimg.bjyyb.net/sites/63500/63544/1761267650840151177946103808.webp", "https://usimg.bjyyb.net/sites/63500/63544/1761267656840151205578178560.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1761267651840151181972635648.webp", "https://usimg.bjyyb.net/sites/63500/63544/1761267649840151173856657408.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_energy_system/Wrap_Solar_Panel.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"colorTemp":"6000K (Daylight White)"},
-        applications: ["Street","Solar"],
-    },
-    // Solar Energy System
-    {
-        id: "p102",
-        name: "Portable solar power station generator 160w 300w 500w",
-        category: "Solar Energy System",
-        categorySlug: "solar-energy-system",
-        description: "Minglu Lighting Portable solar power station generator 160W 300W 500W portable power station, power outdoors QUIET GENERATOR & ECO-FRIENDLY CLEAN POWER:  power station is equipped with a 288 watt-hour",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607135954880.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135954880.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135953931.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135954923.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135952148.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135955905.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135956677.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_energy_system/portable_solar_power_station_generator_160w_300w_500w.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 160W-300W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"160W-300W"},
-        powerOptions: ["160W","300W","500W"],
-        applications: ["Outdoor","Camping","Solar"],
-    },
-    // Solar Energy System
-    {
-        id: "p103",
-        name: "MPPT hybrid solar power inverter 3000w 5000w combined PV controller & battery",
-        category: "Solar Energy System",
-        categorySlug: "solar-energy-system",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607135323648.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135323648.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135324710.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135324161.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135325303.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135322694.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135323467.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_energy_system/mppt_hybrid_solar_power_inverter_3000w_5000w_combined_pv_controller_battery.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 3000W-5000W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"3000W-5000W"},
-        powerOptions: ["3000W-5000W"],
-        applications: ["Solar"],
-    },
-    // Solar Energy System
-    {
-        id: "p104",
-        name: "300W Portable Power Station 288Wh 110V 220V Solar Generator",
-        category: "Solar Energy System",
-        categorySlug: "solar-energy-system",
-        description: "portable power station, power outdoors. QUIET GENERATOR & ECO-FRIENDLY CLEAN POWER:  power station is equipped with a 288 watt-hour (20Ah, 14.4V) lithium-ion battery pack, no fuel or gasoline needed, ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607135646208.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135646208.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135646401.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135647687.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135645600.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607135711350.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607135712692.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/solar_energy_system/300w_portable_power_station_288wh_110v_220v_solar_generator.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 300W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
-        specs: {"power":"300W"},
-        powerOptions: ["300W"],
-        applications: ["Outdoor","Camping","Solar"],
-    },
-    // LED Street Light
-    {
+{
         id: "p105",
         name: "Modular LED Street Light",
         category: "LED Street Light",
@@ -1760,8 +1003,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Street"],
     },
-    // LED Street Light
-    {
+{
         id: "p106",
         name: "High power modular smd led street light wholesale",
         category: "LED Street Light",
@@ -1777,8 +1019,7 @@ const PRODUCTS = [
         powerOptions: ["6W-100W"],
         applications: ["Street"],
     },
-    // LED Street Light
-    {
+{
         id: "p107",
         name: "outdoor led street lamp lantern 150W",
         category: "LED Street Light",
@@ -1794,8 +1035,7 @@ const PRODUCTS = [
         powerOptions: ["150W"],
         applications: ["Street","Outdoor"],
     },
-    // LED Street Light
-    {
+{
         id: "p108",
         name: "Led street lights",
         category: "LED Street Light",
@@ -1811,8 +1051,7 @@ const PRODUCTS = [
         powerOptions: ["500W-1000W"],
         applications: ["Street","Garden","Yard","Garage","Warehouse"],
     },
-    // LED Street Light
-    {
+{
         id: "p109",
         name: "Dlc etl cetl led street light 50w 100w 150w 200w 250w 300w led shoebox parking lot area light",
         category: "LED Street Light",
@@ -1828,8 +1067,7 @@ const PRODUCTS = [
         powerOptions: ["50W","100W","150W","200W","250W","300W"],
         applications: ["Street","Parking Lot"],
     },
-    // LED Street Light
-    {
+{
         id: "p110",
         name: "Energy saving street lamp heads led street light fixtures manufacturers",
         category: "LED Street Light",
@@ -1844,8 +1082,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Street"],
     },
-    // LED Street Light
-    {
+{
         id: "p111",
         name: "Induction dimming city power street lights led shoebox",
         category: "LED Street Light",
@@ -1861,8 +1098,7 @@ const PRODUCTS = [
         powerOptions: ["6W-100W"],
         applications: ["Street"],
     },
-    // LED Street Light
-    {
+{
         id: "p112",
         name: "High power outdoor waterproof ip65 modular smd 60w 100w 150w 200w 250w 300w led street light",
         category: "LED Street Light",
@@ -1878,8 +1114,7 @@ const PRODUCTS = [
         powerOptions: ["60W","100W","150W","200W","250W","300W"],
         applications: ["Street","Outdoor"],
     },
-    // LED Street Light
-    {
+{
         id: "p113",
         name: "China led street light manufacturers",
         category: "LED Street Light",
@@ -1894,8 +1129,7 @@ const PRODUCTS = [
         specs: {"lumens":"14000LM"},
         applications: ["Street"],
     },
-    // LED Flood Light
-    {
+{
         id: "p114",
         name: "100w waterproof ip66 high power led floodlight lens daylight white 6000k",
         category: "LED Flood Light",
@@ -1911,8 +1145,7 @@ const PRODUCTS = [
         powerOptions: ["100W"],
         applications: ["Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p115",
         name: "150 watt led flood light",
         category: "LED Flood Light",
@@ -1927,8 +1160,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p116",
         name: "High lumen led flood light 100 watt best price",
         category: "LED Flood Light",
@@ -1943,8 +1175,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p117",
         name: "Outdoor energy saving 100 watt 150 watt 200 watt led flood light bulb daylight",
         category: "LED Flood Light",
@@ -1960,8 +1191,7 @@ const PRODUCTS = [
         powerOptions: ["1000W"],
         applications: ["Factory","Outdoor","Tunnel","Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p118",
         name: "High power 150lmw cob outdoor ip66 led tunnel light fixtures 150w",
         category: "LED Flood Light",
@@ -1977,8 +1207,7 @@ const PRODUCTS = [
         powerOptions: ["150W"],
         applications: ["Outdoor","Tunnel","Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p119",
         name: "High power smd adjustable outdoor led wall mount security flood lights 150 watt",
         category: "LED Flood Light",
@@ -1993,8 +1222,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Road","Garden","Parking Lot","Warehouse","Factory","Wall","Outdoor","Tunnel"],
     },
-    // LED Flood Light
-    {
+{
         id: "p120",
         name: "150lm/W IP66 waterproof 50w 100w 150w 200w 250w 300w led flood light fixtures AC85-265V",
         category: "LED Flood Light",
@@ -2010,8 +1238,7 @@ const PRODUCTS = [
         powerOptions: ["50W","100W","150W","200W","250W","300W"],
         applications: ["Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p121",
         name: "High power outdoor ip65 150w modular led flood light fixtures",
         category: "LED Flood Light",
@@ -2027,8 +1254,7 @@ const PRODUCTS = [
         powerOptions: ["150W"],
         applications: ["Outdoor","Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p122",
         name: "High power high lumen 150lmw ip66 200w cob led flood light module 6500k white light exterior ligh...",
         category: "LED Flood Light",
@@ -2044,8 +1270,7 @@ const PRODUCTS = [
         powerOptions: ["200W"],
         applications: ["Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p123",
         name: "150w led tunnel light waterproof",
         category: "LED Flood Light",
@@ -2061,24 +1286,7 @@ const PRODUCTS = [
         powerOptions: ["150W"],
         applications: ["Tunnel"],
     },
-    // LED Flood Light
-    {
-        id: "p124",
-        name: "Portable LED Work Light",
-        category: "LED Flood Light",
-        categorySlug: "led-flood-light",
-        description: "3 lighting modes(Full Brightness, Middle Brightness, Low Brightness). Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601143145702.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601143145702.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601143146315.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601143146333.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601143144522.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601143147900.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/LED_Flood_Light/portable_led_work_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Outdoor","Commercial"],
-    },
-    // LED Flood Light
-    {
+{
         id: "p125",
         name: "high quality 100w 120w solar powered led flood light dusk to dawn",
         category: "LED Flood Light",
@@ -2094,8 +1302,7 @@ const PRODUCTS = [
         powerOptions: ["100W","120W"],
         applications: ["Flood","Solar"],
     },
-    // LED Flood Light
-    {
+{
         id: "p126",
         name: "led flood light 200w",
         category: "LED Flood Light",
@@ -2111,8 +1318,7 @@ const PRODUCTS = [
         powerOptions: ["200W"],
         applications: ["Industrial","Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p127",
         name: "M2-150W led flood light fixtures",
         category: "LED Flood Light",
@@ -2128,8 +1334,7 @@ const PRODUCTS = [
         powerOptions: ["150W"],
         applications: ["Flood"],
     },
-    // LED Flood Light
-    {
+{
         id: "p128",
         name: "outdoor led security flood lights",
         category: "LED Flood Light",
@@ -2145,24 +1350,7 @@ const PRODUCTS = [
         powerOptions: ["100W"],
         applications: ["Outdoor","Security","Flood"],
     },
-    // LED Flood Light
-    {
-        id: "p129",
-        name: "Portable Rechargeable LED Flood Light",
-        category: "LED Flood Light",
-        categorySlug: "led-flood-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210601152803118.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601152803118.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152804779.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152805144.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152805790.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152802202.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152803189.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210601152806552.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152807846.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152808154.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210601152808770.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/LED_Flood_Light/portable_rechargeable_led_flood_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
-        specs: {},
-        applications: ["Flood"],
-    },
-    // LED High Bay Light
-    {
+{
         id: "p130",
         name: "High quality high power 200w led high bay light fixtures manufacturer",
         category: "LED High Bay Light",
@@ -2178,8 +1366,7 @@ const PRODUCTS = [
         powerOptions: ["200W"],
         applications: ["Factory"],
     },
-    // LED High Bay Light
-    {
+{
         id: "p131",
         name: "High efficiency factory warehouse industrial lighting led high bay light 50w 100w 150w 200w",
         category: "LED High Bay Light",
@@ -2195,8 +1382,7 @@ const PRODUCTS = [
         powerOptions: ["50W","100W","150W","200W"],
         applications: ["Patio","Warehouse","Factory","Industrial"],
     },
-    // LED High Bay Light
-    {
+{
         id: "p132",
         name: "Basketball, Tennis, Badminton Court Light UFO LED High Bay Light",
         category: "LED High Bay Light",
@@ -2211,8 +1397,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Court","Sports"],
     },
-    // LED High Bay Light
-    {
+{
         id: "p133",
         name: "High lumen ip65 outdoor waterproof 100w 150w 200w ufo led high bay light",
         category: "LED High Bay Light",
@@ -2228,53 +1413,23 @@ const PRODUCTS = [
         powerOptions: ["100W","150W","200W"],
         applications: ["Patio","Parking Lot","Stadium","Warehouse","Commercial","Outdoor"],
     },
-    // LED Fishing Light
-    {
-        id: "p134",
-        name: "Underwater fishing light",
-        category: "LED Fishing Light",
-        categorySlug: "led-fishing-light",
-        description: "underwater fish light Color: white,blue,green, red Generator Voltage :AC180-305V Surge protection :3000V Range of exposure: 360º Salt spray test level：class 10 Water pressure : under water 100m fishin",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607141915390.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607141915390.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607141914395.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607141916871.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607141913596.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607141916267.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607141917867.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/LED_Fishing_Light/underwater_fishing_light.html",
-        featured: true,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
-        specs: {"voltage":"180-305"},
-        applications: ["Industrial","Fishing"],
-    },
-    // LED Fishing Light
-    {
-        id: "p135",
-        name: "Underwater attracting led fishing light",
-        category: "LED Fishing Light",
-        categorySlug: "led-fishing-light",
-        description: "Underwater attracting led fishing light Color: white,blue,green, red Generator Voltage :AC180-305V Surge protection :3000V Range of exposure: 360º Salt spray test level：class 10 Core of cable: 2.5m㎡ W",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/20210607142530209.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607142530209.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607142530142.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607142531452.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607142529153.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/20210607142532693.webp", "https://usimg.bjyyb.net/sites/63500/63544/20210607142533697.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/LED_Fishing_Light/underwater_attracting_led_fishing_light.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
-        specs: {"voltage":"180-305"},
-        applications: ["Fishing"],
-    },
-    // LED Fishing Light
-    {
-        id: "p136",
-        name: "800W 1000W 1200W Fishing Boat Overwater Luring Fishing Light Green Cyan Yellow White Squid Tuna A...",
-        category: "LED Fishing Light",
-        categorySlug: "led-fishing-light",
-        description: "Minglu Lighting 800W 1000W 1200W Fishing Boat Overwater Luring LED Fishing Light Green Cyan Yellow White Squid Tuna Attraction Fish Lamp JY-1000 Fish Catches increasing 50% Fuel Cost saving 30% Using ",
-        image: "https://usimg.bjyyb.net/sites/63500/63544/1758010711826490587604021248.webp",
-        galleryImages: ["https://usimg.bjyyb.net/sites/63500/63544/1758010711826490587604021248.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010707826490568868065280.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010706826490565479067648.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010708826490575679614976.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010701826490544490770432.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010710826490584185663488.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010709826490580108800000.webp"],
-        detailImages: ["https://usimg.bjyyb.net/sites/63500/63544/1758010705826490561582559232.webp", "https://usimg.bjyyb.net/sites/63500/63544/1758010702826490548903178240.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/LED_Fishing_Light/800W_1000W_1200W_Fishing_Boat_Overwater_Luring_Fishing_Light_Green_Cyan_Yellow_White_Squid_Tuna_Attraction_Fish_Lamp.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 800W-1000W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
-        specs: {"power":"800W-1000W"},
-        powerOptions: ["800W","1000W","1200W"],
-        applications: ["Fishing","Boat"],
-    },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

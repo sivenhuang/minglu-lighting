@@ -111,10 +111,9 @@ function buildCategoryCards() {
         <a href="products.html?category=${c.slug}" class="category-card">
             <div class="category-img">
                 ${img ? `<img src="${img}" alt="${c.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'category-icon\\'>💡</div>'">` : `<div class="category-icon">💡</div>`}
-                <div class="category-overlay">
-                    <h3>${c.name}</h3>
-                    <p>Professional ${c.name.toLowerCase()} for commercial and municipal projects.</p>
-                </div>
+            </div>
+            <div class="category-title-bar">
+                <h3>${c.name}</h3>
             </div>
         </a>`;
     }).join('');
@@ -122,27 +121,17 @@ function buildCategoryCards() {
 
 /* ===== Build product card HTML ===== */
 function buildProductCard(p) {
-    const specsHtml = p.specs ? `
-        <div class="product-specs">
-            ${p.specs.power ? `<div class="product-spec"><strong>Power</strong><br>${p.specs.power}</div>` : ''}
-            ${p.specs.lumens ? `<div class="product-spec"><strong>Lumens</strong><br>${p.specs.lumens}</div>` : ''}
-            ${p.specs.battery ? `<div class="product-spec"><strong>Battery</strong><br>${p.specs.battery}</div>` : ''}
-            ${p.specs.panel ? `<div class="product-spec"><strong>Panel</strong><br>${p.specs.panel}</div>` : ''}
-        </div>` : '';
-
     return `
         <div class="product-card fade-in-up">
-            <a href="product.html?id=${p.id}" class="product-card-img" style="display:block;overflow:hidden;">
+            <a href="product.html?id=${p.id}" class="product-card-img" style="display:block;overflow:hidden;" target="_blank">
                 <img src="${p.image || 'assets/images/placeholder.svg'}" alt="${p.name}" loading="lazy"
                      onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
                 <div class="product-card-badge">${p.category}</div>
                 ${p.description ? `<div class="product-card-overlay"><p>${p.description}</p></div>` : ''}
             </a>
             <div class="product-card-body">
-                <h3><a href="product.html?id=${p.id}" style="color:inherit;text-decoration:none;">${p.name}</a></h3>
-                ${specsHtml}
+                <h3><a href="product.html?id=${p.id}" style="color:inherit;text-decoration:none;" target="_blank">${p.name}</a></h3>
                 <div class="product-card-actions">
-                    <a href="product.html?id=${p.id}" class="btn-detail">View Details</a>
                     <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Minglu Lighting, I have a project and need a quote for: ' + p.name)}" class="btn-whatsapp" target="_blank">
                         <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.47 14.64c-.27-.13-1.62-.8-1.87-.89-.25-.09-.43-.13-.62.13-.19.27-.75.89-.92 1.07-.17.18-.34.2-.62.07-.27-.13-1.15-.42-2.19-1.35-.81-.73-1.36-1.63-1.52-1.9-.17-.27 0-.42.13-.55.13-.13.27-.34.41-.52.13-.17.17-.27.27-.47.09-.2.04-.37 0-.5-.04-.13-.62-1.5-.85-2.06-.22-.54-.45-.47-.62-.48h-.52c-.17 0-.47.07-.7.37-.24.3-.92.9-.92 2.2s.94 2.56 1.07 2.73c.13.17 1.88 2.87 4.57 3.88.64.27 1.13.43 1.52.55.64.2 1.22.17 1.68.1.52-.08 1.62-.66 1.85-1.3.23-.63.23-1.17.16-1.3-.07-.13-.25-.2-.52-.33zM12.02 21.47c-1.14 0-2.27-.17-3.34-.5l-.24-.09-2.49.65.67-2.43-.16-.25A9.18 9.18 0 012.7 12.02C2.7 6.98 6.83 3 12.02 3c2.42 0 4.7.94 6.4 2.64a8.98 8.98 0 012.6 6.38c0 5.2-4.13 9.45-9 9.45z"/></svg>
                         WhatsApp
@@ -156,7 +145,7 @@ function buildProductCard(p) {
 function renderFeaturedProducts() {
     const grid = document.getElementById('featuredProducts');
     if (!grid || typeof PRODUCTS === 'undefined') return;
-    const featured = PRODUCTS.filter(p => p.featured).slice(0, 8);
+    const featured = PRODUCTS.filter(p => p.featured).slice(0, 9);
     grid.innerHTML = featured.map(p => buildProductCard(p)).join('');
 }
 
@@ -275,64 +264,10 @@ function initProductDetailPage() {
     const title = document.getElementById('productTitle');
     if (title) title.textContent = p.name;
 
-    const categoryTag = document.getElementById('productCategory');
-    if (categoryTag) categoryTag.textContent = p.category;
-
-    const desc = document.getElementById('productDesc');
-    if (desc) desc.textContent = p.description || 'Professional grade solar lighting solution for commercial and municipal applications.';
-
     // Features
     const featuresList = document.getElementById('productFeatures');
     if (featuresList && p.features && p.features.length > 0) {
         featuresList.innerHTML = p.features.map(f => `<li>${f}</li>`).join('');
-    }
-
-    // Specs table
-    const specsTable = document.getElementById('productSpecs');
-    if (specsTable && p.specs) {
-        const specRows = [];
-        const labels = {
-            'power': 'Power',
-            'lumens': 'Lumens',
-            'battery': 'Battery',
-            'panel': 'Solar Panel',
-            'voltage': 'Voltage',
-            'ipRating': 'IP Rating',
-            'colorTemp': 'Color Temp',
-            'beamAngle': 'Beam Angle',
-            'material': 'Material',
-            'warranty': 'Warranty',
-            'dimensions': 'Dimensions',
-            'weight': 'Weight',
-            'cri': 'CRI',
-            'workingTime': 'Working Time',
-            'chargingTime': 'Charging Time'
-        };
-        for (const [key, label] of Object.entries(labels)) {
-            if (p.specs[key]) {
-                specRows.push(`<div class="spec-row"><span class="spec-label">${label}</span><span class="spec-value">${p.specs[key]}</span></div>`);
-            }
-        }
-        if (specRows.length > 0) {
-            specsTable.innerHTML = specRows.join('');
-            specsTable.style.display = 'block';
-        }
-    }
-
-    // Power options
-    const powerOptions = document.getElementById('powerOptions');
-    if (powerOptions && p.powerOptions && p.powerOptions.length > 0) {
-        powerOptions.innerHTML = p.powerOptions.map(pw =>
-            `<button class="power-btn${pw === p.powerOptions[0] ? ' active' : ''}" onclick="selectPower(this, '${pw}')">${pw}</button>`
-        ).join('');
-    }
-
-    // Applications
-    const applications = document.getElementById('applications');
-    if (applications && p.applications && p.applications.length > 0) {
-        applications.innerHTML = p.applications.map(app =>
-            `<span class="app-tag">${app}</span>`
-        ).join('');
     }
 
     // Related products
@@ -352,11 +287,6 @@ function initProductDetailPage() {
     if (whatsAppBtn) {
         whatsAppBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Minglu Lighting, I have a project and need a quote for: ' + p.name)}`;
     }
-}
-
-function selectPower(btn, power) {
-    document.querySelectorAll('.power-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
 }
 
 /* ===== Projects page ===== */
