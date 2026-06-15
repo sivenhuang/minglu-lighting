@@ -320,11 +320,12 @@ function initProjectsPage() {
     for (const [category, projects] of Object.entries(groups)) {
         html += `<h2 class="project-category-title">${category} Projects</h2>`;
         html += '<div class="project-grid">';
-        projects.forEach(p => {
+        projects.forEach((p, idx) => {
+            const imgId = `proj-img-${p.category.replace(/\s/g,'-')}-${idx}`;
             html += `
                 <div class="project-card fade-in-up">
-                    <div class="project-card-img">
-                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
+                    <div class="project-card-img" onclick="openLightbox('${imgId}')" style="cursor:pointer;">
+                        <img id="${imgId}" src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
                     </div>
                     <div class="project-card-body">
                         <h3>${p.name}</h3>
@@ -336,6 +337,26 @@ function initProjectsPage() {
     }
     container.innerHTML = html;
 }
+
+/* ===== Lightbox ===== */
+function openLightbox(imgId) {
+    const img = document.getElementById(imgId);
+    if (!img) return;
+    const overlay = document.getElementById('lightboxOverlay');
+    const lightboxImg = document.getElementById('lightboxImg');
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+    const overlay = document.getElementById('lightboxOverlay');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+}
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+});
 
 /* ===== Gallery image switch (product detail page) ===== */
 function switchGalleryImage(idx, thumbEl) {

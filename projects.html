@@ -102,6 +102,12 @@
     <span>Chat Now</span>
 </a>
 
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightboxOverlay" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" onclick="event.stopPropagation()">
+</div>
+
 <script src="assets/js/projects-data.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
