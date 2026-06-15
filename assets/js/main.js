@@ -305,6 +305,38 @@ function selectPower(btn, power) {
     btn.classList.add('active');
 }
 
+/* ===== Projects page ===== */
+function initProjectsPage() {
+    const container = document.getElementById('projectsContent');
+    if (!container || typeof PROJECTS === 'undefined') return;
+
+    const groups = {};
+    PROJECTS.forEach(p => {
+        if (!groups[p.category]) groups[p.category] = [];
+        groups[p.category].push(p);
+    });
+
+    let html = '';
+    for (const [category, projects] of Object.entries(groups)) {
+        html += `<h2 class="project-category-title">${category} Projects</h2>`;
+        html += '<div class="project-grid">';
+        projects.forEach(p => {
+            html += `
+                <div class="project-card fade-in-up">
+                    <div class="project-card-img">
+                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
+                    </div>
+                    <div class="project-card-body">
+                        <h3>${p.name}</h3>
+                        <div class="project-country">${p.country}</div>
+                    </div>
+                </div>`;
+        });
+        html += '</div>';
+    }
+    container.innerHTML = html;
+}
+
 /* ===== Gallery image switch (product detail page) ===== */
 function switchGalleryImage(idx, thumbEl) {
     const mainImg = document.getElementById('productMainImg');
@@ -432,4 +464,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initContactForm();
     buildFooterProductLinks();
     initStatsCounters();
+    initProjectsPage();
 });
