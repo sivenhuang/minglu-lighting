@@ -316,22 +316,27 @@ function initProjectsPage() {
         groups[p.category].push(p);
     });
 
+    // Build flat list for lightbox navigation
+    window._projectImages = [];
+    let globalIdx = 0;
+
     let html = '';
     for (const [category, projects] of Object.entries(groups)) {
         html += `<h2 class="project-category-title">${category} Projects</h2>`;
         html += '<div class="project-grid">';
-        projects.forEach((p, idx) => {
-            const imgId = `proj-img-${p.category.replace(/\s/g,'-')}-${idx}`;
+        projects.forEach((p) => {
             html += `
                 <div class="project-card fade-in-up">
-                    <div class="project-card-img" onclick="openLightbox('${imgId}')" style="cursor:pointer;">
-                        <img id="${imgId}" src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
+                    <div class="project-card-img" onclick="openLightbox(${globalIdx})" style="cursor:pointer;">
+                        <img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
                     </div>
                     <div class="project-card-body">
                         <h3>${p.name}</h3>
                         <div class="project-country">${p.country}</div>
                     </div>
                 </div>`;
+            window._projectImages.push({ src: p.image, name: p.name });
+            globalIdx++;
         });
         html += '</div>';
     }
@@ -339,23 +344,57 @@ function initProjectsPage() {
 }
 
 /* ===== Lightbox ===== */
-function openLightbox(imgId) {
-    const img = document.getElementById(imgId);
-    if (!img) return;
+let currentLightboxIndex = 0;
+
+function openLightbox(index) {
+    currentLightboxIndex = index;
+    showLightboxImage();
     const overlay = document.getElementById('lightboxOverlay');
-    const lightboxImg = document.getElementById('lightboxImg');
-    lightboxImg.src = img.src;
-    lightboxImg.alt = img.alt;
     overlay.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
+
+function showLightboxImage() {
+    const data = window._projectImages[currentLightboxIndex];
+    if (!data) return;
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    lightboxImg.src = data.src;
+    lightboxImg.alt = data.name;
+    if (lightboxCaption) lightboxCaption.textContent = data.name;
+    // Update counter
+    const counter = document.getElementById('lightboxCounter');
+    if (counter) counter.textContent = `${currentLightboxIndex + 1} / ${window._projectImages.length}`;
+}
+
+function lightboxPrev(e) {
+    e.stopPropagation();
+    if (currentLightboxIndex > 0) {
+        currentLightboxIndex--;
+        showLightboxImage();
+    }
+}
+
+function lightboxNext(e) {
+    e.stopPropagation();
+    if (currentLightboxIndex < window._projectImages.length - 1) {
+        currentLightboxIndex++;
+        showLightboxImage();
+    }
+}
+
 function closeLightbox() {
     const overlay = document.getElementById('lightboxOverlay');
     overlay.classList.remove('active');
     document.body.style.overflow = '';
 }
+
 document.addEventListener('keydown', (e) => {
+    const overlay = document.getElementById('lightboxOverlay');
+    if (!overlay || !overlay.classList.contains('active')) return;
     if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') lightboxPrev(e);
+    if (e.key === 'ArrowRight') lightboxNext(e);
 });
 
 /* ===== Gallery image switch (product detail page) ===== */

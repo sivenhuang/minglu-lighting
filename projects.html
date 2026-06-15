@@ -105,7 +105,13 @@
 <!-- Lightbox -->
 <div class="lightbox-overlay" id="lightboxOverlay" onclick="closeLightbox()">
     <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
-    <img class="lightbox-img" id="lightboxImg" src="" alt="" onclick="event.stopPropagation()">
+    <button class="lightbox-arrow lightbox-prev" onclick="lightboxPrev(event)">&#10094;</button>
+    <button class="lightbox-arrow lightbox-next" onclick="lightboxNext(event)">&#10095;</button>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+        <img class="lightbox-img" id="lightboxImg" src="" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
 </div>
 
 <script src="assets/js/projects-data.js"></script>
