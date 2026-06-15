@@ -56,10 +56,12 @@ function buildCategoryCards() {
         <a href="products.html?category=${c.slug}" class="category-card">
             <div class="category-img">
                 ${img ? `<img src="${img}" alt="${c.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'category-icon\\'>💡</div>'">` : `<div class="category-icon">💡</div>`}
+                <div class="category-overlay">
+                    <p>Professional ${c.name.toLowerCase()} for commercial and municipal projects.</p>
+                </div>
             </div>
             <div class="category-body">
                 <h3>${c.name}</h3>
-                <p>Professional ${c.name.toLowerCase()} for commercial and municipal projects.</p>
                 <span class="category-link">View Products →</span>
             </div>
         </a>`;
@@ -82,10 +84,10 @@ function buildProductCard(p) {
                 <img src="${p.image || 'assets/images/placeholder.svg'}" alt="${p.name}" loading="lazy"
                      onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
                 <div class="product-card-badge">${p.category}</div>
+                ${p.description ? `<div class="product-card-overlay"><p>${p.description}</p></div>` : ''}
             </a>
             <div class="product-card-body">
                 <h3><a href="product.html?id=${p.id}" style="color:inherit;text-decoration:none;">${p.name}</a></h3>
-                <p>${p.description ? p.description.substring(0, 80) + '...' : ''}</p>
                 ${specsHtml}
                 <div class="product-card-actions">
                     <a href="product.html?id=${p.id}" class="btn-detail">View Details</a>
