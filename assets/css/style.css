@@ -213,11 +213,11 @@ ul { list-style: none; }
 /* Hero visual - solar product showcase */
 .hero-visual { position: relative; display: flex; justify-content: center; align-items: center; }
 .hero-visual-inner {
-    position: relative; width: 100%; max-width: 560px;
+    position: relative; width: 100%; max-width: 700px;
 }
 /* Solar street light illustration using CSS */
 .solar-showcase {
-    position: relative; width: 100%; aspect-ratio: 4/3;
+    position: relative; width: 100%; aspect-ratio: 16/12;
     background: radial-gradient(ellipse at 50% 50%,
         rgba(34, 197, 94, .06) 0%,
         transparent 70%);
@@ -251,6 +251,18 @@ ul { list-style: none; }
 .hero-carousel-dots .dot.active {
     background: var(--green-400); border-color: var(--green-400); width: 28px; border-radius: 5px;
 }
+/* Carousel arrows */
+.hero-carousel-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15);
+    color: var(--white); font-size: 1.5rem; cursor: pointer;
+    width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    transition: all .25s ease; z-index: 5;
+}
+.hero-carousel-arrow:hover { background: var(--green-500); border-color: var(--green-500); }
+.hero-carousel-prev { left: 8px; }
+.hero-carousel-next { right: 8px; }
 /* Behind-product glow */
 .hero-glow {
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
