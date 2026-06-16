@@ -7,3 +7,10 @@ scrape-*.js
 update-*.js
 generate-*.js
 scrape-progress.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
