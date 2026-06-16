@@ -104,8 +104,8 @@ minglu-lighting/
 
 ### 数据维护
 - 源站产品数 > 本地产品数时，用 sitemap.xml 获取完整 URL 列表
-- 产品名需去除 "Xiuben Lighting" 前缀
-- 所有页面文字 "Xiuben" → "Minglu"（sourceUrl 中的域名除外）
+- 产品名需去除 "Minglu Lighting" 前缀
+- 所有页面文字 "Minglu" → "Minglu"（sourceUrl 中的域名除外）
 
 ### 部署
 - Cloudflare Pages 连接 GitHub 仓库，自动部署

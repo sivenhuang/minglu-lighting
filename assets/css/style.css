@@ -662,12 +662,16 @@ ul { list-style: none; }
 
 /* === WhatsApp Float Button === */
 .whatsapp-float {
-    position: fixed; bottom: 30px; right: 30px; z-index: 999;
+    position: fixed; bottom: 32px; right: 30px; z-index: 999;
     display: flex; align-items: center; gap: 10px;
     background: #25d366; color: var(--white);
-    padding: 14px 24px; border-radius: 50px;
+    padding: 0 24px; height: 52px; border-radius: 50px;
     box-shadow: 0 8px 30px rgba(37, 211, 102, .4);
     transition: all .3s; font-weight: 600;
+    box-sizing: border-box;
+}
+.whatsapp-float.shift-left {
+    right: 140px;
 }
 .whatsapp-float:hover {
     transform: translateY(-4px) scale(1.02);
@@ -952,7 +956,8 @@ ul { list-style: none; }
     .section { padding: 60px 0; }
     .footer-grid { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
-    .whatsapp-float { bottom: 20px; right: 20px; padding: 12px 18px; }
+    .whatsapp-float { bottom: 20px; right: 20px; padding: 0 18px; height: 44px; }
+    .whatsapp-float.shift-left { right: 100px; }
     .whatsapp-float span { display: none; }
 }
 
@@ -977,3 +982,62 @@ ul { list-style: none; }
     to { opacity: 1; transform: translateY(0); }
 }
 .fade-in-up { animation: fadeInUp .6s ease-out; }
+
+/* === Back to Top Button === */
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 32px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #25d366;
+    color: var(--white);
+    padding: 0 24px;
+    height: 52px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 30px rgba(37, 211, 102, .4);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    pointer-events: none;
+    transition: opacity .35s, visibility .35s, transform .35s, box-shadow .3s;
+}
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.back-to-top:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(37, 211, 102, .6);
+    color: var(--white);
+}
+.back-to-top:active {
+    transform: translateY(0);
+    opacity: 0.9;
+}
+.back-to-top .arrow {
+    font-size: 20px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+}
+@media (max-width: 600px) {
+    .back-to-top {
+        right: 20px;
+        bottom: 20px;
+        padding: 0 18px;
+        height: 44px;
+        font-size: 13px;
+    }
+    .back-to-top span { display: none; }
+}

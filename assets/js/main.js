@@ -510,4 +510,43 @@ document.addEventListener('DOMContentLoaded', () => {
     initStatsCounters();
     initProjectsPage();
     initHeroCarousel();
+    initBackToTop();
 });
+
+/* ============ Back to Top ============ */
+function initBackToTop() {
+    var btn = document.createElement('button');
+    btn.className = 'back-to-top';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML = '<span class="arrow">\u2191</span><span>TOP</span>';
+    btn.title = 'Back to top';
+    document.body.appendChild(btn);
+
+    var whatsapp = document.querySelector('.whatsapp-float');
+    var ticking = false;
+    function update() {
+        var scrolled = window.scrollY > 300;
+        if (scrolled) {
+            btn.classList.add('visible');
+            if (whatsapp) whatsapp.classList.add('shift-left');
+        } else {
+            btn.classList.remove('visible');
+            if (whatsapp) whatsapp.classList.remove('shift-left');
+        }
+        ticking = false;
+    }
+
+    // Check on load
+    update();
+
+    window.addEventListener('scroll', function() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+            ticking = true;
+        }
+    }, { passive: true });
+
+    btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
