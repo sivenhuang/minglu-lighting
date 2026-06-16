@@ -168,6 +168,9 @@ function initProductsPage() {
             filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             const cat = e.target.dataset.category;
+            const url = new URL(window.location);
+            url.searchParams.set('category', cat);
+            history.replaceState(null, '', url);
             renderProductsGrid(cat);
         });
     }
