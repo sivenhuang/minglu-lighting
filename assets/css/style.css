@@ -950,8 +950,11 @@ ul { list-style: none; }
     .gallery-main { aspect-ratio: 4/3; border-radius: 0; box-shadow: none; background: #000; }
     .gallery-main img { object-fit: cover; }
     .gallery-thumb { width: 56px; height: 56px; }
-    .product-detail .container { padding: 0 12px; }
+    .product-detail .container { padding: 0; }
+    .product-detail-info { padding: 0 12px; }
     .product-card-img { height: 280px; }
+    .detail-images-grid { max-width: 100%; margin: 0; }
+    .detail-images-grid img { border-radius: 0; box-shadow: none; }
     .contact-grid { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; }
 }
@@ -974,8 +977,8 @@ ul { list-style: none; }
     .gallery-main { border-radius: 0; box-shadow: none; background: #000; }
     .gallery-main img { object-fit: cover; }
     .product-detail-info h1 { font-size: 1.4rem !important; }
-    .detail-images-grid { gap: 8px; }
-    .detail-images-grid img { border-radius: 0; width: 100%; }
+    .detail-images-grid { gap: 8px; max-width: 100%; }
+    .detail-images-grid img { border-radius: 0; width: 100%; box-shadow: none; }
     .detail-images-section { padding-top: 32px; }
     .detail-images-section h2 { padding: 0 12px; }
     .btn-whatsapp-lg { width: 100%; justify-content: center; border-radius: 0; }
