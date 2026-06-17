@@ -2,6 +2,7 @@
 /* global PRODUCTS, CATEGORIES */
 
 const WHATSAPP_NUMBER = '8618098910947';
+const WHATSAPP_ICON = '<svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.47 14.64c-.27-.13-1.62-.8-1.87-.89-.25-.09-.43-.13-.62.13-.19.27-.75.89-.92 1.07-.17.18-.34.2-.62.07-.27-.13-1.15-.42-2.19-1.35-.81-.73-1.36-1.63-1.52-1.9-.17-.27 0-.42.13-.55.13-.13.27-.34.41-.52.13-.17.17-.27.27-.47.09-.2.04-.37 0-.5-.04-.13-.62-1.5-.85-2.06-.22-.54-.45-.47-.62-.48h-.52c-.17 0-.47.07-.7.37-.24.3-.92.9-.92 2.2s.94 2.56 1.07 2.73c.13.17 1.88 2.87 4.57 3.88.64.27 1.13.43 1.52.55.64.2 1.22.17 1.68.1.52-.08 1.62-.66 1.85-1.3.23-.63.23-1.17.16-1.3-.07-.13-.25-.2-.52-.33zM12.02 21.47c-1.14 0-2.27-.17-3.34-.5l-.24-.09-2.49.65.67-2.43-.16-.25A9.18 9.18 0 012.7 12.02C2.7 6.98 6.83 3 12.02 3c2.42 0 4.7.94 6.4 2.64a8.98 8.98 0 012.6 6.38c0 5.2-4.13 9.45-9 9.45z"/></svg>';
 
 /* ===== Product Gallery State ===== */
 let currentGalleryIndex = 0;
@@ -123,17 +124,17 @@ function buildCategoryCards() {
 function buildProductCard(p) {
     return `
         <div class="product-card fade-in-up">
-            <a href="product.html?id=${p.id}" class="product-card-img" style="display:block;overflow:hidden;" target="_blank">
+            <a href="product.html?id=${p.id}" class="product-card-img" target="_blank">
                 <img src="${p.image || 'assets/images/placeholder.svg'}" alt="${p.name}" loading="lazy"
                      onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
                 <div class="product-card-badge">${p.category}</div>
                 ${p.description ? `<div class="product-card-overlay"><p>${p.description}</p></div>` : ''}
             </a>
             <div class="product-card-body">
-                <h3><a href="product.html?id=${p.id}" style="color:inherit;text-decoration:none;" target="_blank">${p.name}</a></h3>
+                <h3><a href="product.html?id=${p.id}" class="product-card-title" target="_blank">${p.shortName || p.name}</a></h3>
                 <div class="product-card-actions">
                     <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Minglu Lighting, I have a project and need a quote for: ' + p.name)}" class="btn-whatsapp" target="_blank">
-                        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.47 14.64c-.27-.13-1.62-.8-1.87-.89-.25-.09-.43-.13-.62.13-.19.27-.75.89-.92 1.07-.17.18-.34.2-.62.07-.27-.13-1.15-.42-2.19-1.35-.81-.73-1.36-1.63-1.52-1.9-.17-.27 0-.42.13-.55.13-.13.27-.34.41-.52.13-.17.17-.27.27-.47.09-.2.04-.37 0-.5-.04-.13-.62-1.5-.85-2.06-.22-.54-.45-.47-.62-.48h-.52c-.17 0-.47.07-.7.37-.24.3-.92.9-.92 2.2s.94 2.56 1.07 2.73c.13.17 1.88 2.87 4.57 3.88.64.27 1.13.43 1.52.55.64.2 1.22.17 1.68.1.52-.08 1.62-.66 1.85-1.3.23-.63.23-1.17.16-1.3-.07-.13-.25-.2-.52-.33zM12.02 21.47c-1.14 0-2.27-.17-3.34-.5l-.24-.09-2.49.65.67-2.43-.16-.25A9.18 9.18 0 012.7 12.02C2.7 6.98 6.83 3 12.02 3c2.42 0 4.7.94 6.4 2.64a8.98 8.98 0 012.6 6.38c0 5.2-4.13 9.45-9 9.45z"/></svg>
+                        ${WHATSAPP_ICON}
                         WhatsApp
                     </a>
                 </div>
@@ -265,7 +266,7 @@ function initProductDetailPage() {
 
     // Product info
     const title = document.getElementById('productTitle');
-    if (title) title.textContent = p.name;
+    if (title) title.textContent = p.shortName || p.name;
 
     // Features
     const featuresList = document.getElementById('productFeatures');
