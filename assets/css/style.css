@@ -967,17 +967,21 @@ ul { list-style: none; }
     .product-detail { padding: 30px 0; }
     .product-detail .container { padding: 0; }
     .product-detail-grid { gap: 24px; }
-    .product-detail-info { padding: 0 12px; }
+    .product-detail-info { padding: 0; }
+    .product-detail-info > *, .product-detail-features-wrapper { padding-left: 12px; padding-right: 12px; }
     .product-gallery { position: static; width: 100%; height: auto; }
     .product-detail-info h1 { font-size: 1.4rem !important; }
     .detail-images-grid { gap: 8px; }
     .detail-images-grid img { border-radius: 0; }
     .detail-images-section { padding-top: 32px; }
     .detail-images-section h2 { padding: 0 12px; }
-    .btn-whatsapp-lg { width: 100%; justify-content: center; }
+    .btn-whatsapp-lg { width: 100%; justify-content: center; border-radius: 0; }
     .gallery-arrow { width: 32px; height: 32px; font-size: 18px; }
     .product-card-img { height: 240px; }
     .products-grid { gap: 16px; }
+    .section-dark .container { padding: 0; }
+    .section-dark .section-header { padding: 0 12px; }
+    .section-dark .products-grid { padding: 0 12px; }
 }
 
 /* === Power Options & App Tags === */
