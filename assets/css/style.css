@@ -963,6 +963,7 @@ ul { list-style: none; }
     .whatsapp-float.shift-left { right: 100px; }
     .whatsapp-float span { display: none; }
     .product-detail { padding: 30px 0; }
+    .product-detail .container { padding: 0 8px; }
     .product-detail-grid { gap: 24px; }
     .product-gallery { position: static; width: 100%; height: auto; }
     .product-detail-info h1 { font-size: 1.4rem !important; }
