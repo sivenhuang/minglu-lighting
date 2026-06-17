@@ -971,24 +971,27 @@ ul { list-style: none; }
     .whatsapp-float.shift-left { right: 100px; }
     .whatsapp-float span { display: none; }
     .back-to-top { bottom: 74px; right: 16px; width: 40px; height: 40px; font-size: 18px; border-radius: 50%; }
-    /* Product Detail - clean full width */
+    /* Product Detail - full bleed */
     .product-detail { padding: 0; }
-    .product-detail .container { padding: 0; margin: 0; max-width: 100%; }
-    .product-detail-grid { gap: 12px; margin: 0; }
+    .product-detail .container { max-width: none; padding: 0; margin: 0; }
+    .product-detail-grid { gap: 12px; }
     .product-detail-info { padding: 0 12px; }
+    .product-detail-info h1 { font-size: 1.3rem !important; padding: 0; }
     .product-detail-info > * { padding-left: 0; padding-right: 0; }
+    .product-detail-features-wrapper { padding-left: 0; padding-right: 0; }
     .product-gallery { width: 100%; height: auto; }
     .gallery-main { border-radius: 0; box-shadow: none; aspect-ratio: auto; }
-    .gallery-main img { width: 100%; height: auto; object-fit: contain; }
-    .detail-images-grid { gap: 4px; max-width: 100%; margin: 0; }
-    .detail-images-grid img { border-radius: 0; width: 100%; box-shadow: none; }
+    .gallery-main img { width: 100%; height: auto; object-fit: contain; display: block; }
+    .gallery-thumb { width: 50px; height: 50px; }
+    .detail-images-grid { gap: 4px; max-width: none; margin: 0; }
+    .detail-images-grid img { border-radius: 0; width: 100%; box-shadow: none; display: block; }
     .detail-images-section { padding-top: 20px; border-top: none; }
     .detail-images-section h2 { padding: 0 12px; font-size: 1.2rem; margin-bottom: 16px; }
     .btn-whatsapp-lg { width: 100%; justify-content: center; border-radius: 0; }
     .gallery-arrow { width: 32px; height: 32px; font-size: 18px; }
     .product-card-img { height: 220px; }
     .products-grid { gap: 12px; }
-    .section-dark .container { padding: 0; max-width: 100%; }
+    .section-dark .container { max-width: none; padding: 0; }
     .section-dark .section-header { padding: 0 12px; }
     .section-dark .products-grid { padding: 0 12px; }
     .page-hero { padding: 60px 0 16px; }
