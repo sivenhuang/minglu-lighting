@@ -949,6 +949,8 @@ ul { list-style: none; }
     .product-gallery { position: static; width: 100%; height: auto; }
     .gallery-main { aspect-ratio: 4/3; }
     .gallery-thumb { width: 56px; height: 56px; }
+    .product-detail .container { padding: 0 12px; }
+    .product-card-img { height: 280px; }
     .contact-grid { grid-template-columns: 1fr; }
     .about-grid { grid-template-columns: 1fr; }
 }
@@ -963,14 +965,19 @@ ul { list-style: none; }
     .whatsapp-float.shift-left { right: 100px; }
     .whatsapp-float span { display: none; }
     .product-detail { padding: 30px 0; }
-    .product-detail .container { padding: 0 8px; }
+    .product-detail .container { padding: 0; }
     .product-detail-grid { gap: 24px; }
+    .product-detail-info { padding: 0 12px; }
     .product-gallery { position: static; width: 100%; height: auto; }
     .product-detail-info h1 { font-size: 1.4rem !important; }
     .detail-images-grid { gap: 8px; }
+    .detail-images-grid img { border-radius: 0; }
     .detail-images-section { padding-top: 32px; }
+    .detail-images-section h2 { padding: 0 12px; }
     .btn-whatsapp-lg { width: 100%; justify-content: center; }
     .gallery-arrow { width: 32px; height: 32px; font-size: 18px; }
+    .product-card-img { height: 240px; }
+    .products-grid { gap: 16px; }
 }
 
 /* === Power Options & App Tags === */
