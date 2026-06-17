@@ -958,6 +958,7 @@ ul { list-style: none; }
     .section { padding: 60px 0; }
     .footer-grid { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+    .footer-col a { white-space: normal; }
     .whatsapp-float { bottom: 20px; right: 20px; padding: 0 18px; height: 44px; }
     .whatsapp-float.shift-left { right: 100px; }
     .whatsapp-float span { display: none; }
