@@ -945,8 +945,9 @@ ul { list-style: none; }
     .hero-buttons { justify-content: center; }
     .stats-bar .container { grid-template-columns: repeat(2, 1fr); }
     .footer-grid { grid-template-columns: 1fr 1fr; }
-    .product-detail-grid { grid-template-columns: 1fr; gap: 20px; }
-    .product-detail .container { padding: 0; max-width: 100%; }
+    .product-detail-grid { grid-template-columns: 1fr; gap: 20px; width: 100%; }
+    .product-detail .container { padding: 0; max-width: 100vw; }
+    .product-detail-grid > * { width: 100%; }
     .product-gallery { position: static; width: 100%; height: auto; max-width: 100%; }
     .gallery-main { aspect-ratio: auto; border-radius: 0; box-shadow: none; background: var(--gray-50); }
     .gallery-main img { object-fit: contain; width: 100%; height: auto; }
@@ -970,9 +971,10 @@ ul { list-style: none; }
     .whatsapp-float { bottom: 20px; right: 20px; padding: 0 18px; height: 44px; }
     .whatsapp-float.shift-left { right: 100px; }
     .whatsapp-float span { display: none; }
-    .product-detail { padding: 20px 0; }
-    .product-detail .container { padding: 0; max-width: 100%; }
-    .product-detail-grid { gap: 16px; }
+    .product-detail { padding: 20px 0; overflow-x: hidden; }
+    .product-detail .container { padding: 0; max-width: 100vw; }
+    .product-detail-grid { gap: 16px; width: 100%; }
+    .product-detail-grid > * { width: 100%; }
     .product-detail-info { padding: 0 16px; }
     .product-detail-info > *, .product-detail-features-wrapper { padding-left: 0; padding-right: 0; }
     .product-gallery { position: static; width: 100%; height: auto; max-width: 100%; }
