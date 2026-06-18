@@ -208,7 +208,21 @@ function initProductDetailPage() {
 
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');
-    if (!id) { container.innerHTML = '<p>Product not found.</p>'; return; }
+
+    // Static page mode: no ?id= param, content is pre-rendered
+    // Just initialize galleryImages from DOM so carousel JS still works
+    if (!id) {
+        const mainImg = document.getElementById('productMainImg');
+        if (mainImg && mainImg.src) {
+            galleryImages = [mainImg.src.replace(window.location.origin + '/', '')];
+        }
+        document.querySelectorAll('.gallery-thumb img').forEach(img => {
+            const src = img.src.replace(window.location.origin + '/', '').replace(/^\.\.\//, '');
+            if (src && !galleryImages.includes(src)) galleryImages.push(src);
+        });
+        initGallerySwipe();
+        return;
+    }
 
     const p = PRODUCTS.find(x => x.id === id);
     if (!p) { container.innerHTML = '<p>Product not found.</p>'; return; }
