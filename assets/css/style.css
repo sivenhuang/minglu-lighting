@@ -720,10 +720,12 @@ ul { list-style: none; }
 /* === Product Detail === */
 .product-detail { padding: 80px 0; }
 .product-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
-.product-gallery {     width: 800px;
-    height: 700px;
+.product-gallery {
+    width: 100%;
+    height: auto;
     position: sticky;
-    top: 100px; }
+    top: 100px;
+}
 .gallery-main {
     position: relative; width: 100%;
     border-radius: var(--radius-lg); overflow: hidden;
@@ -811,10 +813,13 @@ ul { list-style: none; }
     box-shadow: var(--shadow-sm);
     display: block;
 }
-.product-detail-info h1 {
+.product-detail-info h1, .product-title-detail {
     font-size: 2rem; font-weight: 800; color: var(--gray-900);
     margin-bottom: 12px;
 }
+.product-detail-features-wrapper { margin-bottom: 24px; }
+.detail-images-section { margin-top: 60px; }
+.detail-images-title { text-align: center; margin-bottom: 32px; }
 .product-detail-category {
     display: inline-block; background: rgba(34,197,94,.1); color: var(--green-600);
     padding: 4px 14px; border-radius: 50px; font-size: .85rem; font-weight: 600;
@@ -959,7 +964,7 @@ ul { list-style: none; }
     .about-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 600px) {
-    /* === Global Reset === */
+    /* === Global === */
     .hero h1 { font-size: 1.8rem; }
     .stats-bar .container { grid-template-columns: 1fr 1fr; }
     .section { padding: 50px 0; }
@@ -972,12 +977,13 @@ ul { list-style: none; }
     .product-card-img { height: 240px; }
     .products-grid { gap: 16px; }
 
-    /* === Page Hero — prevent title clipping === */
+    /* === Page Hero === */
     .page-hero {
         padding: 100px 0 24px;
         overflow: visible;
     }
     .page-hero::before { display: none; }
+    .page-hero .container { padding: 0; max-width: none; }
     .page-hero h1 {
         font-size: 1.7rem;
         word-break: break-word;
@@ -985,23 +991,27 @@ ul { list-style: none; }
         padding: 0 12px;
     }
     .page-hero p { font-size: 0.85rem; padding: 0 12px; }
-    .page-hero .container { padding: 0; }
 
-    /* === Product Detail — full bleed reset === */
+    /* === Product Detail — complete mobile reset === */
     .product-detail { padding: 0; }
     .product-detail .container {
-        max-width: none;
-        padding: 0;
+        max-width: none !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .product-detail-grid {
+        display: block;
+        gap: 0;
         margin: 0;
         width: 100%;
     }
-    .product-detail-grid { gap: 16px; }
 
-    /* Gallery */
+    /* Gallery — full width, no gaps */
     .product-gallery {
         position: static;
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: auto !important;
         max-width: none;
     }
     .gallery-main {
@@ -1009,49 +1019,52 @@ ul { list-style: none; }
         border-radius: 0;
         box-shadow: none;
         background: var(--gray-50);
+        width: 100%;
     }
     .gallery-main img {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: contain;
         display: block;
     }
+    .gallery-thumbs-wrapper { padding: 0 12px; }
     .gallery-thumb { width: 50px; height: 50px; }
     .gallery-arrow { width: 32px; height: 32px; font-size: 18px; }
 
-    /* Info */
+    /* Info — 12px side padding only */
     .product-detail-info {
-        padding: 0 12px;
+        padding: 16px 12px;
+        width: 100%;
     }
-    .product-detail-info h1 {
+    .product-title-detail {
         font-size: 1.3rem !important;
         word-break: break-word;
     }
-    .product-detail-info > *,
-    .product-detail-features-wrapper {
-        padding-left: 0;
-        padding-right: 0;
-    }
+    .product-detail-features-wrapper { margin-bottom: 16px; }
     .btn-whatsapp-lg {
         width: 100%;
         justify-content: center;
         border-radius: 0;
     }
 
-    /* Detail images */
+    /* Detail images — full width */
     .detail-images-section {
         padding-top: 24px;
         border-top: none;
+        margin-top: 0 !important;
+        width: 100%;
     }
-    .detail-images-section h2 {
+    .detail-images-title {
         padding: 0 12px;
         font-size: 1.1rem;
         margin-bottom: 12px;
+        text-align: left;
     }
     .detail-images-grid {
         gap: 4px;
-        max-width: none;
-        margin: 0;
+        max-width: none !important;
+        margin: 0 !important;
+        width: 100%;
     }
     .detail-images-grid img {
         border-radius: 0;
@@ -1063,9 +1076,10 @@ ul { list-style: none; }
 
     /* Related Products */
     .section-dark .container {
-        max-width: none;
-        padding: 0;
-        margin: 0;
+        max-width: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100%;
     }
     .section-dark .section-header { padding: 0 12px; }
     .section-dark .products-grid { padding: 0 12px; }
