@@ -1005,7 +1005,7 @@ ul { list-style: none; }
         max-width: none;
     }
     .gallery-main {
-        aspect-ratio: auto;
+        aspect-ratio: 3/2;
         border-radius: 0;
         box-shadow: none;
         background: var(--gray-50);
