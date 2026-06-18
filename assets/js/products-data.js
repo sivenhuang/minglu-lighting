@@ -50,7 +50,7 @@ const CATEGORIES = [
 ];
 
 const PRODUCTS = [
-    {
+{
         id: "p134",
         name: "TR408 All in one solar street light",
         category: "Solar Street Light",
@@ -66,7 +66,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p137",
         name: "TR348 with camera All in one solar street light",
         category: "Solar Street Light",
@@ -82,7 +82,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p135",
         name: "TL All in one solar street light",
         category: "Solar Street Light",
@@ -98,7 +98,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p138",
         name: "BY All in two solar street light",
         category: "Solar Street Light",
@@ -114,7 +114,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p136",
         name: "TK348 All in one solar street light",
         category: "Solar Street Light",
@@ -145,7 +145,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Street","Road","Parking Lot","Solar"],
     },
-    {
+{
         id: "p148",
         name: "TSP Solar street light",
         category: "Solar Street Light",
@@ -437,7 +437,7 @@ const PRODUCTS = [
         powerOptions: ["60W"],
         applications: ["Street","Road","Factory","Solar"],
     },
-    {
+{
         id: "p139",
         name: "MTR All in two solar street light",
         category: "Solar Street Light",
@@ -453,7 +453,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p140",
         name: "CF All in one solar street light",
         category: "Solar Street Light",
@@ -469,7 +469,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p134",
         name: "TR408 All in one solar street light",
         category: "Solar Street Light",
@@ -485,7 +485,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p137",
         name: "TR348 with camera All in one solar street light",
         category: "Solar Street Light",
@@ -501,7 +501,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p135",
         name: "TL All in one solar street light",
         category: "Solar Street Light",
@@ -517,7 +517,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p138",
         name: "BY All in two solar street light",
         category: "Solar Street Light",
@@ -533,7 +533,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p136",
         name: "TK348 All in one solar street light",
         category: "Solar Street Light",
@@ -840,7 +840,7 @@ const PRODUCTS = [
         powerOptions: ["60W"],
         applications: ["Street","Road","Factory","Solar"],
     },
-    {
+{
         id: "p139",
         name: "MTR All in two solar street light",
         category: "Solar Street Light",
@@ -856,7 +856,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
     },
-    {
+{
         id: "p140",
         name: "CF All in one solar street light",
         category: "Solar Street Light",
@@ -1098,7 +1098,7 @@ const PRODUCTS = [
         powerOptions: ["40W","50W"],
         applications: ["Garden","Outdoor","Solar"],
     },
-    {
+{
         id: "p141",
         name: "SG-6 Solar Lawn Light",
         category: "Solar Lawn Light",
@@ -1204,7 +1204,7 @@ const PRODUCTS = [
         specs: {},
         applications: ["Walkway","Solar"],
     },
-    {
+{
         id: "p152",
         name: "TX07-1 Solar lawn light",
         category: "Solar Lawn Light",
@@ -1220,7 +1220,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Lawn","Garden","Outdoor","Solar"],
     },
-    {
+{
         id: "p153",
         name: "SG-6 Solar garden lawn light",
         category: "Solar Lawn Light",
@@ -1378,7 +1378,7 @@ const PRODUCTS = [
         powerOptions: ["8W"],
         applications: ["Garden","Gate","Outdoor","Solar"],
     },
-    {
+{
         id: "p142",
         name: "SG-1-Wall Solar wall light",
         category: "Solar Wall Light",
@@ -1394,7 +1394,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Wall", "Outdoor", "Solar"],
     },
-    {
+{
         id: "p143",
         name: "TX-07 Solar wall light",
         category: "Solar Wall Light",
@@ -1674,6 +1674,21 @@ const PRODUCTS = [
         specs: {"lumens":"14000LM"},
         applications: ["Street"],
     },
+{        id: "p127",
+        name: "M2-150W led flood light fixtures",
+        category: "LED Flood Light",
+        categorySlug: "led-flood-light",
+        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
+        image: "assets/images/led-flood/20210601170723762.webp",
+        galleryImages: ["assets/images/led-flood/20210601170723762.webp", "assets/images/led-flood/20210601170724641.webp", "assets/images/led-flood/20210601170725391.webp", "assets/images/led-flood/20210601170726892.webp"],
+        detailImages: ["assets/images/all-products/20210601170727989.webp", "assets/images/all-products/20210601170729529.webp", "assets/images/all-products/20210601170730242.webp", "assets/images/all-products/20210601170731578.webp", "assets/images/all-products/20210601170731847.webp", "assets/images/all-products/20210601170732578.webp", "assets/images/all-products/20210601170733741.webp", "assets/images/all-products/20210601170733750.webp", "assets/images/all-products/20210601170734112.webp", "assets/images/all-products/20210601170735349.webp"],
+        sourceUrl: "https://www.xiuben-donta.com/products/LED_Flood_Light/led_flood_light_fixtures.html",
+        featured: false,
+        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 2W-150W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
+        specs: {"power":"2W-150W"},
+        powerOptions: ["150W"],
+        applications: ["Flood"],
+    },
 {
         id: "p144",
         name: "LFL-1 LED flood light",
@@ -1689,21 +1704,6 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Industrial","Outdoor"],
-    },
-{        id: "p127",
-        name: "M2-150W led flood light fixtures",
-        category: "LED Flood Light",
-        categorySlug: "led-flood-light",
-        description: "Subscribe to get the latest on sales, new releases and more Copyright 2026 Zhongshan Minglu Lighting Co., Ltd.",
-        image: "assets/images/led-flood/20210601170723762.webp",
-        galleryImages: ["assets/images/led-flood/20210601170723762.webp", "assets/images/led-flood/20210601170724641.webp", "assets/images/led-flood/20210601170725391.webp", "assets/images/led-flood/20210601170726892.webp"],
-        detailImages: ["assets/images/all-products/20210601170727989.webp", "assets/images/all-products/20210601170729529.webp", "assets/images/all-products/20210601170730242.webp", "assets/images/all-products/20210601170731578.webp", "assets/images/all-products/20210601170731847.webp", "assets/images/all-products/20210601170732578.webp", "assets/images/all-products/20210601170733741.webp", "assets/images/all-products/20210601170733750.webp", "assets/images/all-products/20210601170734112.webp", "assets/images/all-products/20210601170735349.webp"],
-        sourceUrl: "https://www.xiuben-donta.com/products/LED_Flood_Light/led_flood_light_fixtures.html",
-        featured: false,
-        features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency 2W-150W LED lighting technology","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
-        specs: {"power":"2W-150W"},
-        powerOptions: ["150W"],
-        applications: ["Flood"],
     },
 {
         id: "p114",
@@ -1910,7 +1910,7 @@ const PRODUCTS = [
         powerOptions: [],
         applications: ["Industrial","Outdoor"],
     },
-    {
+{
         id: "p146",
         name: "GP LED high bay light",
         category: "LED High Bay Light",
