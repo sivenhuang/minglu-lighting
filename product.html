@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<script>
+// Redirect old ?id= URLs to static pages
+(function() {
+    var params = new URLSearchParams(window.location.search);
+    var id = params.get('id');
+    if (id) {
+        window.location.replace('/product/' + id + '.html');
+    }
+})();
+</script>
 
 <!-- Header -->
 <header class="header" id="header">
@@ -63,7 +73,7 @@
             </div>
             <!-- Right: Info -->
             <div class="product-detail-info">
-                <h1 id="productTitle" class="product-title-detail"></h1>
+                <h2 id="productTitle" class="product-title-detail"></h2>
 
                 <!-- Features -->
                 <div class="product-detail-features-wrapper">

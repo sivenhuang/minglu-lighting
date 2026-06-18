@@ -124,14 +124,14 @@ function buildCategoryCards() {
 function buildProductCard(p) {
     return `
         <div class="product-card fade-in-up">
-            <a href="product.html?id=${p.id}" class="product-card-img" target="_blank">
+            <a href="product/${p.id}.html" class="product-card-img" target="_blank">
                 <img src="${p.image || 'assets/images/placeholder.svg'}" alt="${p.name}" loading="lazy"
                      onerror="this.onerror=null;this.src='assets/images/placeholder.svg'">
                 <div class="product-card-badge">${p.category}</div>
                 ${p.description ? `<div class="product-card-overlay"><p>${p.description}</p></div>` : ''}
             </a>
             <div class="product-card-body">
-                <h3><a href="product.html?id=${p.id}" class="product-card-title" target="_blank">${p.shortName || p.name}</a></h3>
+                <h3><a href="product/${p.id}.html" class="product-card-title" target="_blank">${p.shortName || p.name}</a></h3>
                 <div class="product-card-actions">
                     <a href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Minglu Lighting, I have a project and need a quote for: ' + p.name)}" class="btn-whatsapp" target="_blank">
                         ${WHATSAPP_ICON}
