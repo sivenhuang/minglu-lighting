@@ -252,6 +252,9 @@ function initProductDetailPage() {
         thumbsContainer.style.display = 'none';
     }
 
+    // Touch swipe support for mobile gallery
+    initGallerySwipe();
+
     // Detail images section
     const detailSection = document.getElementById('detailImagesSection');
     const detailGrid = document.getElementById('detailImagesGrid');
@@ -435,6 +438,37 @@ function scrollThumbnails(dir) {
     if (!thumbsContainer) return;
     const scrollAmount = 200;
     thumbsContainer.scrollBy({ left: dir * scrollAmount, behavior: 'smooth' });
+}
+
+/* ===== Touch swipe for mobile gallery ===== */
+function initGallerySwipe() {
+    const gallery = document.querySelector('.gallery-main');
+    if (!gallery || galleryImages.length <= 1) return;
+
+    let startX = 0, startY = 0, diffX = 0, diffY = 0;
+    const threshold = 50; // minimum swipe distance in px
+
+    gallery.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        diffX = 0;
+        diffY = 0;
+    }, { passive: true });
+
+    gallery.addEventListener('touchmove', (e) => {
+        diffX = e.touches[0].clientX - startX;
+        diffY = e.touches[0].clientY - startY;
+    }, { passive: true });
+
+    gallery.addEventListener('touchend', () => {
+        if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > threshold) {
+            if (diffX > 0) {
+                changeGalleryImage(-1); // swipe right → previous
+            } else {
+                changeGalleryImage(1);  // swipe left → next
+            }
+        }
+    });
 }
 
 /* ===== Contact form → WhatsApp redirect ===== */
