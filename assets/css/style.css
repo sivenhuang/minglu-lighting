@@ -432,6 +432,21 @@ ul { list-style: none; }
     flex-wrap: wrap;
     margin-bottom: 32px;
 }
+.category-select {
+    display: none; /* hidden on desktop */
+    width: 100%;
+    max-width: 400px;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border-radius: 12px;
+    background: var(--gray-800);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,.15);
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+.category-select:focus { border-color: var(--green-500); }
 
 /* === Category Page Product Cards === */
 .category-grid {
@@ -1034,9 +1049,8 @@ ul { list-style: none; }
     .category-grid .product-card-img { aspect-ratio: 1/1; height: auto; }
     .category-grid .product-card-img img { object-fit: cover; padding: 0; }
     .category-grid .product-card-badge { display: none; }
-    .category-filter-bar { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-    .category-filter-bar::-webkit-scrollbar { display: none; }
-    .btn-category-filter { flex-shrink: 0; font-size: .8rem; padding: 6px 12px; }
+    .category-filter-bar { display: none; }  /* hide button list on mobile */
+    .category-select { display: block; }       /* show dropdown on mobile */
     .products-grid { gap: 16px; }
 
     /* === Page Hero === */
