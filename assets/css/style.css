@@ -402,6 +402,47 @@ ul { list-style: none; }
 }
 .category-link:hover { gap: 10px; }
 
+
+/* === Category Filter Buttons === */
+.btn-category-filter {
+    display: inline-block;
+    background: var(--gray-800);
+    color: var(--white);
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: 500;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 50px;
+    padding: 8px 16px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+.btn-category-filter:hover {
+    background: var(--gray-700);
+    transform: translateY(-2px);
+}
+.btn-category-filter.active {
+    background: var(--green-500);
+    border-color: var(--green-500);
+    color: #fff;
+}
+.category-filter-bar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+/* === Category Page Product Cards === */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+.category-grid .product-card-img {
+    height: 320px;
+}
+
 /* === Product Cards === */
 .products-grid {
     display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
