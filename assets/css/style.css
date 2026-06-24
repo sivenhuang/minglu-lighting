@@ -1083,6 +1083,9 @@ ul { list-style: none; }
     .category-select { display: block; }       /* show dropdown on mobile */
     .products-grid { gap: 16px; }
 
+    /* === Reduce gap between hero and content on mobile === */
+    .page-hero + .section { padding-top: 0 !important; }
+
     /* === Category Page Product Cards — Mobile === */
     .category-grid .product-card-body { padding: 12px 14px; }
     .category-grid .product-card-body h3 { font-size: .9rem; margin-bottom: 8px; line-height: 1.3; }
