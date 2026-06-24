@@ -1033,7 +1033,7 @@ ul { list-style: none; }
     .category-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
     .category-grid .product-card-img { aspect-ratio: 1/1; height: auto; }
     .category-grid .product-card-img img { object-fit: cover; padding: 0; }
-    .category-grid .product-card-badge { font-size: .7rem; padding: 3px 8px; top: 8px; left: 8px; }
+    .category-grid .product-card-badge { display: none; }
     .category-filter-bar { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
     .category-filter-bar::-webkit-scrollbar { display: none; }
     .btn-category-filter { flex-shrink: 0; font-size: .8rem; padding: 6px 12px; }
