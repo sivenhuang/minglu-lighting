@@ -87,7 +87,7 @@ function initMobileMenu() {
 function buildCategoryDropdown() {
     const dd = document.getElementById('productsDropdown');
     if (!dd || typeof CATEGORIES === 'undefined') return;
-    const base = window.location.pathname.includes('/product/') || window.location.pathname.includes('/blog/') ? '../' : '';
+    const base = (window.location.pathname.includes('/product/') || window.location.pathname.includes('/blog/') || window.location.pathname.includes('/category/')) ? '../' : '';
     dd.innerHTML = CATEGORIES.map(c =>
         `<a href="${base}category/${c.slug}.html">${c.name}</a>`
     ).join('');
@@ -544,7 +544,7 @@ function initStatsCounters() {
 function buildFooterProductLinks() {
     const container = document.getElementById('footerProductLinks');
     if (!container || typeof CATEGORIES === 'undefined') return;
-    const base = window.location.pathname.includes('/product/') || window.location.pathname.includes('/blog/') ? '../' : '';
+    const base = (window.location.pathname.includes('/product/') || window.location.pathname.includes('/blog/') || window.location.pathname.includes('/category/')) ? '../' : '';
     container.innerHTML = CATEGORIES.slice(0, 6).map(c =>
         `<a href="${base}category/${c.slug}.html">${c.name}</a>`
     ).join('');
