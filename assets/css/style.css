@@ -1100,33 +1100,36 @@ ul { list-style: none; }
 
     /* === Page Hero — Mobile Compact === */
     .page-hero {
-        padding: 60px 0 0;
+        padding: 55px 0 0;
         overflow: visible;
     }
     .page-hero::before { display: none; }
     .page-hero .container { padding: 0 12px; max-width: none; }
     .page-hero h1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         word-break: break-word;
-        line-height: 1.25;
-        margin-bottom: 10px;
+        line-height: 1.2;
+        margin-bottom: 8px;
     }
     .page-hero p {
-        font-size: 0.82rem;
-        line-height: 1.4;
-        margin-bottom: 4px;
+        font-size: 0.8rem;
+        line-height: 1.35;
+        margin-bottom: 10px;
         color: rgba(255,255,255,.65);
     }
 
-    /* === Category Select — Mobile, flush with hero === */
-    .page-hero + .section { padding-top: 6px !important; background: transparent !important; }
-    .category-select {
-        display: block;
-        margin: 0 !important;
-        border-radius: 14px;
-        font-size: .9rem;
+    /* Category select inside hero — zero gap by design */
+    .hero-category-select { padding: 0 4px; }
+    .hero-category-select .category-select {
+        width: 100%;
+        margin: 0;
         padding: 13px 40px 13px 16px;
+        font-size: .88rem;
+        border-radius: 14px;
     }
+
+    /* Content section follows immediately after hero */
+    .page-hero + .section { padding-top: 12px !important; }
 
     /* === Product Detail — complete mobile reset === */
     .product-detail { padding: 0; }
