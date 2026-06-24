@@ -89,7 +89,7 @@ function buildCategoryDropdown() {
     if (!dd || typeof CATEGORIES === 'undefined') return;
     const base = window.location.pathname.includes('/product/') || window.location.pathname.includes('/blog/') ? '../' : '';
     dd.innerHTML = CATEGORIES.map(c =>
-        `<a href="${base}products.html?category=${c.slug}">${c.name}</a>`
+        `<a href="${base}category/${c.slug}.html">${c.name}</a>`
     ).join('');
 }
 
@@ -110,7 +110,7 @@ function buildCategoryCards() {
     grid.innerHTML = CATEGORIES.map(c => {
         const img = getCategoryImage(c.slug);
         return `
-        <a href="products.html?category=${c.slug}" class="category-card">
+        <a href="category/${c.slug}.html" class="category-card">
             <div class="category-img">
                 ${img ? `<img src="${img}" alt="${c.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'category-icon\\'>💡</div>'">` : `<div class="category-icon">💡</div>`}
             </div>
@@ -546,7 +546,7 @@ function buildFooterProductLinks() {
     if (!container || typeof CATEGORIES === 'undefined') return;
     const base = window.location.pathname.includes('/product/') || window.location.pathname.includes('/blog/') ? '../' : '';
     container.innerHTML = CATEGORIES.slice(0, 6).map(c =>
-        `<a href="${base}products.html?category=${c.slug}">${c.name}</a>`
+        `<a href="${base}category/${c.slug}.html">${c.name}</a>`
     ).join('');
 }
 
