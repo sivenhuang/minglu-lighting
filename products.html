@@ -85,6 +85,21 @@
 <section class="section">
     <div class="container">
         <div class="filter-bar" id="filterBar"></div>
+        <select class="category-select" id="productFilterSelect" onchange="(function(){const cat=this.value;document.querySelectorAll('#filterBar .filter-btn').forEach(b=>b.classList.remove('active'));const btn=document.querySelector(`#filterBar [data-category=\"${cat}\"]`);if(btn)btn.classList.add('active');if(typeof renderProductsGrid==='function')renderProductsGrid(cat);})()">
+            <option value="all" selected>All Products</option>
+            <option value="solar-street-light">Solar Street Light</option>
+            <option value="solar-garden-light">Solar Garden Light</option>
+            <option value="solar-lawn-light">Solar Lawn Light</option>
+            <option value="solar-pillar-light">Solar Pillar Light</option>
+            <option value="solar-wall-light">Solar Wall Light</option>
+            <option value="solar-strip-light">Solar Strip Light</option>
+            <option value="solar-table-chair">Solar Table & Chair</option>
+            <option value="solar-flood-light">Solar Flood Light</option>
+            <option value="solar-light-tower">Solar Light Tower</option>
+            <option value="led-street-light">LED Street Light</option>
+            <option value="led-flood-light">LED Flood Light</option>
+            <option value="led-high-bay-light">LED High Bay Light</option>
+        </select>
         <div class="products-grid" id="productsGrid" style="margin-top:40px;"></div>
     </div>
 </section>

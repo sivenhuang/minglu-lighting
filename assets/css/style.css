@@ -1080,11 +1080,13 @@ ul { list-style: none; }
     .category-grid .product-card-img img { object-fit: cover; padding: 0; }
     .category-grid .product-card-badge { display: none; }
     .category-filter-bar { display: none; }  /* hide button list on mobile */
+    .filter-bar { display: none; }            /* hide products.html filter buttons on mobile */
     .category-select { display: block; }       /* show dropdown on mobile */
     .products-grid { gap: 16px; }
 
     /* === Reduce gap between hero and content on mobile === */
     .page-hero + .section { padding-top: 0 !important; }
+    .category-select { margin-top: -12px !important; }
 
     /* === Category Page Product Cards — Mobile === */
     .category-grid .product-card-body { padding: 12px 14px; }
