@@ -742,6 +742,9 @@ ul { list-style: none; }
     font-size: 1.15rem; color: rgba(255,255,255,.7);
     max-width: 600px; margin: 0 auto; position: relative;
 }
+.page-hero .container {
+    max-width: 1000px;
+}
 
 /* === Filter Bar === */
 .filter-bar {
