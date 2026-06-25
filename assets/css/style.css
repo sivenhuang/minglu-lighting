@@ -1129,8 +1129,9 @@ ul { list-style: none; }
 
     /* === Page Hero — Mobile Compact === */
     .page-hero {
-        padding: 85px 0 4px;
+        padding: 85px 0 0;
         overflow: visible;
+        border-bottom: 1px solid rgba(255,255,255,.06);
     }
     .page-hero::before { display: none; }
     .page-hero .container { padding: 0 12px; max-width: none; }
@@ -1145,12 +1146,13 @@ ul { list-style: none; }
         line-height: 1.35;
         margin-bottom: 0;
         color: rgba(255,255,255,.65);
+        padding-bottom: 12px;
     }
 
     /* Filter section — select between hero and product grid */
     .filter-section {
-        padding: 0 0 16px !important;
-        background: var(--gray-900);
+        padding: 14px 0 16px !important;
+        background: #0a1628 !important;
     }
     .filter-section .category-select {
         display: block;
