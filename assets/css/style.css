@@ -1129,7 +1129,7 @@ ul { list-style: none; }
 
     /* === Page Hero — Mobile Compact === */
     .page-hero {
-        padding: 85px 0 0;
+        padding: 85px 0 16px;
         overflow: visible;
     }
     .page-hero::before { display: none; }
@@ -1148,7 +1148,7 @@ ul { list-style: none; }
     }
 
     /* Category select inside hero — zero gap by design */
-    .hero-category-select { padding: 0 4px; }
+    .hero-category-select { padding: 8px 4px 0; }
     .hero-category-select .category-select {
         width: 100%;
         margin: 0;
