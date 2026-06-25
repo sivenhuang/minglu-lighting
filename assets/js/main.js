@@ -215,10 +215,14 @@ function initProductDetailPage() {
     if (!id) {
         const mainImg = document.getElementById('productMainImg');
         if (mainImg && mainImg.src) {
-            galleryImages = [mainImg.src.replace(window.location.origin + '/', '')];
+            let path = mainImg.src.replace(window.location.origin + '/', '');
+            if (!path.startsWith('..')) path = '../' + path;
+            galleryImages = [path];
         }
         document.querySelectorAll('.gallery-thumb img').forEach(img => {
-            const src = img.src.replace(window.location.origin + '/', '').replace(/^\.\.\//, '');
+            let src = img.src.replace(window.location.origin + '/', '');
+            if (src.startsWith('../')) src = '../' + src.replace(/^\.\.\//, '');
+            if (!src.startsWith('..')) src = '../' + src;
             if (src && !galleryImages.includes(src)) galleryImages.push(src);
         });
         initGallerySwipe();
