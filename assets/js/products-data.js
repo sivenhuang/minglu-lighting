@@ -65,7 +65,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p137",
         name: "TR348 with camera All in one solar street light",
@@ -81,7 +81,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p135",
         name: "TL All in one solar street light",
@@ -97,7 +97,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p138",
         name: "BY All in two solar street light",
@@ -113,7 +113,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p136",
         name: "TK348 All in one solar street light",
@@ -129,7 +129,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p9",
         name: "Intelligent solar street light",
@@ -144,7 +144,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Road","Parking Lot","Solar"],
-    },,
+    },
 {
         id: "p148",
         name: "TSP Solar street light",
@@ -160,7 +160,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street","Road","Solar"],
-    },,
+    },
 {
         id: "p1",
         name: "Solar street light",
@@ -175,7 +175,7 @@ const PRODUCTS = [
         features: ["No wires needed and can be mounted onto wall or pole","High quality","Turns on and off automatically: Night sensor comes on at dusk.","Press the switch once to turn on.","Must be charged dircetly under the sun","Aluminum Alloy body","Excellent heat dissipation"],
         specs: {"material":"Aluminum Alloy"},
         applications: ["Garden","Deck","Yard","Patio","Driveway","Parking Lot","Roadway"],
-    },,
+    },
 {
         id: "p2",
         name: "Solar street light",
@@ -190,7 +190,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Solar"],
-    },,
+    },
 {
         id: "p3",
         name: "Smart solar street light",
@@ -205,7 +205,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Road","Pathway","Fence","Outdoor","Boat","Solar"],
-    },,
+    },
 {
         id: "p5",
         name: "All in One LED Solar Street Light Dusk to Dawn",
@@ -220,7 +220,7 @@ const PRODUCTS = [
         features: ["No wires needed and can be mounted onto wall or pole","High quality","Turns on and off automatically: Night sensor comes on at dusk.","Press the switch once to turn on.","Must be charged dircetly under the sun","Aluminum Alloy body","Excellent heat dissipation"],
         specs: {"material":"Aluminum Alloy"},
         applications: ["Garden","Deck","Yard","Patio","Driveway","Parking Lot","Roadway"],
-    },,
+    },
 {
         id: "p6",
         name: "Solar powered led street light",
@@ -235,7 +235,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Road","Solar"],
-    },,
+    },
 {
         id: "p8",
         name: "Solar powered led street light",
@@ -250,7 +250,7 @@ const PRODUCTS = [
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65"},
         applications: ["Street","Road","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p11",
         name: "30w all in one solar powered street lamp dusk to dawn with motion sensor",
@@ -266,7 +266,7 @@ const PRODUCTS = [
         specs: {"power":"30W"},
         powerOptions: ["30W"],
         applications: ["Street","Solar"],
-    },,
+    },
 {
         id: "p13",
         name: "50w ip65 outdoor adjustable integrated motion sensor all in one led solar light street",
@@ -282,7 +282,7 @@ const PRODUCTS = [
         specs: {"power":"50W","ipRating":"IP65"},
         powerOptions: ["50W"],
         applications: ["Street","Road","Highway","Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p15",
         name: "50w 60w 80w 100w 120w solar led street light outdoor",
@@ -298,7 +298,7 @@ const PRODUCTS = [
         specs: {"power":"50W-60W"},
         powerOptions: ["50W","60W","80W","100W","120W"],
         applications: ["Street","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p20",
         name: "All in one solar street light",
@@ -313,7 +313,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"material":"ABS + Aluminum"},
         applications: ["Street","Road","Solar"],
-    },,
+    },
 {
         id: "p22",
         name: "All in one solar street lights",
@@ -329,7 +329,7 @@ const PRODUCTS = [
         specs: {"power":"80W-100W","material":"ABS + Aluminum"},
         powerOptions: ["80W-100W"],
         applications: ["Street","Road","Solar"],
-    },,
+    },
 {
         id: "p23",
         name: "aluminum alloy motion sensor solar lights outdoor pathway",
@@ -344,7 +344,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"material":"Aluminum Alloy"},
         applications: ["Pathway","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p26",
         name: "commercial split solar street light 100w factory",
@@ -360,7 +360,7 @@ const PRODUCTS = [
         specs: {"power":"100W"},
         powerOptions: ["100W"],
         applications: ["Street","Road","Garden","Yard","Parking Lot","Stadium","Court","Factory"],
-    },,
+    },
 {
         id: "p30",
         name: "Integrated solar street light",
@@ -375,7 +375,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"lumens":"180LM"},
         applications: ["Street","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p35",
         name: "Solar energy street light",
@@ -390,7 +390,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"material":"Aluminum Alloy"},
         applications: ["Street","Road","Solar"],
-    },,
+    },
 {
         id: "p45",
         name: "Solar parking lot lights",
@@ -405,7 +405,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Parking Lot","Solar"],
-    },,
+    },
 {
         id: "p47",
         name: "Solar powered street lights",
@@ -420,7 +420,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Solar"],
-    },,
+    },
 {
         id: "p54",
         name: "T6 60w all in one solar street light factory",
@@ -436,7 +436,7 @@ const PRODUCTS = [
         specs: {"power":"6W-60W","material":"ABS + Aluminum"},
         powerOptions: ["60W"],
         applications: ["Street","Road","Factory","Solar"],
-    },,
+    },
 {
         id: "p139",
         name: "MTR All in two solar street light",
@@ -452,7 +452,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p140",
         name: "CF All in one solar street light",
@@ -468,7 +468,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Street", "Road", "Solar"],
-    },,
+    },
 {
         id: "p55",
         name: "Solar garden light",
@@ -483,7 +483,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Parking Lot","Solar"],
-    },,
+    },
 {
         id: "p56",
         name: "Solar ground light",
@@ -498,7 +498,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Outdoor","Solar"],
-    },,
+    },
 {
         id: "p57",
         name: "Solar buried light",
@@ -513,7 +513,7 @@ const PRODUCTS = [
         features: ["IP68 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP68"},
         applications: ["Garden","Yard","Patio","Pathway","Driveway","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p58",
         name: "Solar flood light",
@@ -528,7 +528,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Pathway","Wall","Flood","Solar"],
-    },,
+    },
 {
         id: "p60",
         name: "Solar Post Top Garden Light",
@@ -543,7 +543,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Commercial","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p61",
         name: "Solar underground light",
@@ -558,7 +558,7 @@ const PRODUCTS = [
         features: ["IP68 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP68"},
         applications: ["Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p63",
         name: "Solar spot light",
@@ -573,7 +573,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Yard","Pathway","Driveway","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p65",
         name: "Garden lights solar powered",
@@ -588,7 +588,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Solar"],
-    },,
+    },
 {
         id: "p66",
         name: "Garden solar light",
@@ -603,7 +603,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p68",
         name: "Outdoor solar garden light",
@@ -618,7 +618,7 @@ const PRODUCTS = [
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65","material":"Aluminum Alloy"},
         applications: ["Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p70",
         name: "Solar garden lamp",
@@ -633,7 +633,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street","Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p71",
         name: "Solar garden lights outdoor",
@@ -648,7 +648,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p73",
         name: "Solar light for garden",
@@ -663,7 +663,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Solar"],
-    },,
+    },
 {
         id: "p75",
         name: "solar powered led landscape lights",
@@ -678,7 +678,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Landscape","Solar"],
-    },,
+    },
 {
         id: "p76",
         name: "UFO outdoor waterproof motion sensor led solar garden light 40w 50w",
@@ -694,7 +694,7 @@ const PRODUCTS = [
         specs: {"power":"40W-50W"},
         powerOptions: ["40W","50W"],
         applications: ["Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p141",
         name: "SG-6 Solar Lawn Light",
@@ -710,7 +710,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Lawn","Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p84",
         name: "Solar Lawn Light",
@@ -725,7 +725,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Yard","Court","Solar"],
-    },,
+    },
 {
         id: "p77",
         name: "Solar Lawn Light",
@@ -740,7 +740,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Solar"],
-    },,
+    },
 {
         id: "p78",
         name: "Solar Lawn Light",
@@ -755,7 +755,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Patio","Solar"],
-    },,
+    },
 {
         id: "p79",
         name: "Solar Lawn Light",
@@ -770,7 +770,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"material":"PC + Aluminum"},
         applications: ["Yard","Solar"],
-    },,
+    },
 {
         id: "p80",
         name: "Solar Lawn Light",
@@ -785,7 +785,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"material":"PC + Aluminum"},
         applications: ["Patio","Solar"],
-    },,
+    },
 {
         id: "p82",
         name: "Solar Lawn Light",
@@ -800,7 +800,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Walkway","Solar"],
-    },,
+    },
 {
         id: "p152",
         name: "TX07-1 Solar lawn light",
@@ -816,7 +816,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Lawn","Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p153",
         name: "SG-6 Solar garden lawn light",
@@ -832,7 +832,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Lawn","Garden","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p94",
         name: "Solar Pillar Light",
@@ -847,7 +847,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Garden","Fence","Gate","Wall","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p86",
         name: "Solar Pillar Light",
@@ -863,7 +863,7 @@ const PRODUCTS = [
         specs: {"power":"5W","ipRating":"IP65","material":"Aluminum Alloy","colorTemp":"3000K (Warm White)"},
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p87",
         name: "Solar Pillar Light",
@@ -879,7 +879,7 @@ const PRODUCTS = [
         specs: {"power":"5W","ipRating":"IP65","material":"Aluminum Alloy","colorTemp":"3000K (Warm White)"},
         powerOptions: ["5W"],
         applications: ["Garden","Yard","Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p88",
         name: "Solar Pillar Light",
@@ -895,7 +895,7 @@ const PRODUCTS = [
         specs: {"power":"5W","ipRating":"IP65","material":"Aluminum Alloy","colorTemp":"3000K (Warm White)"},
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p89",
         name: "Solar Pillar Light",
@@ -911,7 +911,7 @@ const PRODUCTS = [
         specs: {"power":"5W","ipRating":"IP65","material":"Aluminum Alloy","colorTemp":"3000K (Warm White)"},
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p90",
         name: "Solar Pillar Light",
@@ -926,7 +926,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Fence","Solar"],
-    },,
+    },
 {
         id: "p91",
         name: "Solar Pillar Light",
@@ -942,7 +942,7 @@ const PRODUCTS = [
         specs: {"power":"5W","ipRating":"IP65","material":"Aluminum Alloy","colorTemp":"3000K (Warm White)"},
         powerOptions: ["5W"],
         applications: ["Yard","Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p92",
         name: "Solar Pillar Light",
@@ -958,7 +958,7 @@ const PRODUCTS = [
         specs: {"power":"5W","ipRating":"IP65","material":"Aluminum Alloy","colorTemp":"3000K (Warm White)"},
         powerOptions: ["5W"],
         applications: ["Yard","Fence","Deck","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p93",
         name: "Solar Pillar Light",
@@ -974,7 +974,7 @@ const PRODUCTS = [
         specs: {"power":"8W","ipRating":"IP65","material":"Aluminum Alloy"},
         powerOptions: ["8W"],
         applications: ["Garden","Gate","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p142",
         name: "SG-1-Wall Solar wall light",
@@ -990,7 +990,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Wall", "Outdoor", "Solar"],
-    },,
+    },
 {
         id: "p143",
         name: "TX-07 Solar wall light",
@@ -1006,7 +1006,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Wall", "Outdoor", "Solar"],
-    },,
+    },
 {
         id: "p31",
         name: "Integrated solar wall lights outdoor",
@@ -1021,7 +1021,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Yard","Garage","Fence","Wall","Outdoor","Security","Solar"],
-    },,
+    },
 {
         id: "p147",
         name: "Solar strip light (RGB)",
@@ -1051,7 +1051,7 @@ const PRODUCTS = [
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65"},
         applications: ["Patio","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p96",
         name: "Solar powered led strip light",
@@ -1066,7 +1066,7 @@ const PRODUCTS = [
         features: ["IP65 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {"ipRating":"IP65"},
         applications: ["Patio","Outdoor","Solar"],
-    },,
+    },
 {
         id: "p150",
         name: "CH-1 Solar table & chair",
@@ -1082,7 +1082,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Garden","Outdoor","Solar","Patio"],
-    },,
+    },
 {
         id: "p151",
         name: "CH-2 Solar table & chair",
@@ -1098,7 +1098,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Garden","Outdoor","Solar","Patio"],
-    },,
+    },
 {
         id: "p149",
         name: "Solar Table",
@@ -1130,7 +1130,7 @@ const PRODUCTS = [
         specs: {"power":"100W-200W","ipRating":"IP65","material":"Aluminum Alloy"},
         powerOptions: ["100W-200W"],
         applications: ["Garden","Yard","Patio","Lawn","Pathway","Garage","Stadium","Outdoor"],
-    },,
+    },
 {
         id: "p98",
         name: "Solar light tower",
@@ -1145,7 +1145,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Energy-saving solar powered with intelligent controller","Automatic dusk-to-dawn operation with built-in light sensor","Certified quality meeting international standards"],
         specs: {},
         applications: ["Solar"],
-    },,
+    },
 {
         id: "p107",
         name: "outdoor led street lamp lantern 150W",
@@ -1161,7 +1161,7 @@ const PRODUCTS = [
         specs: {"power":"150W"},
         powerOptions: ["150W"],
         applications: ["Street","Outdoor"],
-    },,
+    },
 {
         id: "p105",
         name: "Modular LED Street Light",
@@ -1176,7 +1176,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street"],
-    },,
+    },
 {
         id: "p106",
         name: "High power modular smd led street light wholesale",
@@ -1192,7 +1192,7 @@ const PRODUCTS = [
         specs: {"power":"6W-100W"},
         powerOptions: ["6W-100W"],
         applications: ["Street"],
-    },,
+    },
 {
         id: "p108",
         name: "Led street lights",
@@ -1208,7 +1208,7 @@ const PRODUCTS = [
         specs: {"power":"500W-1000W","warranty":"5 Years"},
         powerOptions: ["500W-1000W"],
         applications: ["Street","Garden","Yard","Garage","Warehouse"],
-    },,
+    },
 {
         id: "p109",
         name: "Dlc etl cetl led street light 50w 100w 150w 200w 250w 300w led shoebox parking lot area light",
@@ -1224,7 +1224,7 @@ const PRODUCTS = [
         specs: {"power":"50W-100W"},
         powerOptions: ["50W","100W","150W","200W","250W","300W"],
         applications: ["Street","Parking Lot"],
-    },,
+    },
 {
         id: "p110",
         name: "Energy saving street lamp heads led street light fixtures manufacturers",
@@ -1239,7 +1239,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
         specs: {},
         applications: ["Street"],
-    },,
+    },
 {
         id: "p112",
         name: "High power outdoor waterproof ip65 modular smd 60w 100w 150w 200w 250w 300w led street light",
@@ -1255,7 +1255,7 @@ const PRODUCTS = [
         specs: {"power":"60W-100W","ipRating":"IP65"},
         powerOptions: ["60W","100W","150W","200W","250W","300W"],
         applications: ["Street","Outdoor"],
-    },,
+    },
 {
         id: "p113",
         name: "China led street light manufacturers",
@@ -1285,7 +1285,7 @@ const PRODUCTS = [
         specs: {"power":"2W-150W"},
         powerOptions: ["150W"],
         applications: ["Flood"],
-    },,
+    },
 {
         id: "p144",
         name: "LFL-1 LED flood light",
@@ -1301,7 +1301,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Industrial","Outdoor"],
-    },,
+    },
 {
         id: "p114",
         name: "100w waterproof ip66 high power led floodlight lens daylight white 6000k",
@@ -1317,7 +1317,7 @@ const PRODUCTS = [
         specs: {"power":"100W","ipRating":"IP66","voltage":"85-265","colorTemp":"6000K (Daylight White)"},
         powerOptions: ["100W"],
         applications: ["Flood"],
-    },,
+    },
 {
         id: "p115",
         name: "150 watt led flood light",
@@ -1332,7 +1332,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
         specs: {},
         applications: ["Flood"],
-    },,
+    },
 {
         id: "p116",
         name: "High lumen led flood light 100 watt best price",
@@ -1347,7 +1347,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
         specs: {},
         applications: ["Flood"],
-    },,
+    },
 {
         id: "p117",
         name: "Outdoor energy saving 100 watt 150 watt 200 watt led flood light bulb daylight",
@@ -1363,7 +1363,7 @@ const PRODUCTS = [
         specs: {"power":"1000W","material":"Aluminum Alloy","colorTemp":"6000K (Daylight White)"},
         powerOptions: ["1000W"],
         applications: ["Factory","Outdoor","Tunnel","Flood"],
-    },,
+    },
 {
         id: "p118",
         name: "High power 150lmw cob outdoor ip66 led tunnel light fixtures 150w",
@@ -1379,7 +1379,7 @@ const PRODUCTS = [
         specs: {"power":"150W","lumens":"150LM","ipRating":"IP66","voltage":"85-265"},
         powerOptions: ["150W"],
         applications: ["Outdoor","Tunnel","Flood"],
-    },,
+    },
 {
         id: "p119",
         name: "High power smd adjustable outdoor led wall mount security flood lights 150 watt",
@@ -1394,7 +1394,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
         specs: {},
         applications: ["Road","Garden","Parking Lot","Warehouse","Factory","Wall","Outdoor","Tunnel"],
-    },,
+    },
 {
         id: "p120",
         name: "150lm/W IP66 waterproof 50w 100w 150w 200w 250w 300w led flood light fixtures AC85-265V",
@@ -1410,7 +1410,7 @@ const PRODUCTS = [
         specs: {"power":"50W-100W","lumens":"150LM","ipRating":"IP66","voltage":"85-265"},
         powerOptions: ["50W","100W","150W","200W","250W","300W"],
         applications: ["Flood"],
-    },,
+    },
 {
         id: "p122",
         name: "High power high lumen 150lmw ip66 200w cob led flood light module 6500k white light exterior ligh...",
@@ -1426,7 +1426,7 @@ const PRODUCTS = [
         specs: {"power":"200W","lumens":"150LM","ipRating":"IP66","voltage":"85-265","colorTemp":"6000K (Daylight White)"},
         powerOptions: ["200W"],
         applications: ["Flood"],
-    },,
+    },
 {
         id: "p123",
         name: "150w led tunnel light waterproof",
@@ -1442,7 +1442,7 @@ const PRODUCTS = [
         specs: {"power":"150W"},
         powerOptions: ["150W"],
         applications: ["Tunnel"],
-    },,
+    },
 {
         id: "p125",
         name: "high quality 100w 120w solar powered led flood light dusk to dawn",
@@ -1458,7 +1458,7 @@ const PRODUCTS = [
         specs: {"power":"100W-120W"},
         powerOptions: ["100W","120W"],
         applications: ["Flood","Solar"],
-    },,
+    },
 {
         id: "p126",
         name: "led flood light 200w",
@@ -1474,7 +1474,7 @@ const PRODUCTS = [
         specs: {"power":"200W"},
         powerOptions: ["200W"],
         applications: ["Industrial","Flood"],
-    },,
+    },
 {
         id: "p128",
         name: "outdoor led security flood lights",
@@ -1490,7 +1490,7 @@ const PRODUCTS = [
         specs: {"power":"100W","lumens":"12000LM","ipRating":"IP66","material":"Aluminum Alloy"},
         powerOptions: ["100W"],
         applications: ["Outdoor","Security","Flood"],
-    },,
+    },
 {
         id: "p145",
         name: "UFO LED high bay light",
@@ -1506,7 +1506,7 @@ const PRODUCTS = [
         specs: {},
         powerOptions: [],
         applications: ["Industrial","Outdoor"],
-    },,
+    },
 {
         id: "p146",
         name: "GP LED high bay light",
@@ -1537,7 +1537,7 @@ const PRODUCTS = [
         specs: {"power":"200W"},
         powerOptions: ["200W"],
         applications: ["Factory"],
-    },,
+    },
 {
         id: "p131",
         name: "High efficiency factory warehouse industrial lighting led high bay light 50w 100w 150w 200w",
@@ -1553,7 +1553,7 @@ const PRODUCTS = [
         specs: {"power":"50W-100W","lumens":"110LM","material":"Aluminum Alloy"},
         powerOptions: ["50W","100W","150W","200W"],
         applications: ["Patio","Warehouse","Factory","Industrial"],
-    },,
+    },
 {
         id: "p132",
         name: "Basketball, Tennis, Badminton Court Light UFO LED High Bay Light",
@@ -1568,7 +1568,7 @@ const PRODUCTS = [
         features: ["IP65/IP66 waterproof rated for all-weather outdoor use","High-efficiency LED lighting technology with excellent lumen output","Durable construction with premium materials for long service life","Easy installation with standard mounting options","Excellent heat dissipation for optimal performance","Flicker-free illumination with high CRI for true color rendering","Certified quality meeting international standards"],
         specs: {},
         applications: ["Court","Sports"],
-    },,
+    },
 {
         id: "p133",
         name: "High lumen ip65 outdoor waterproof 100w 150w 200w ufo led high bay light",
@@ -1584,28 +1584,6 @@ const PRODUCTS = [
         specs: {"power":"100W-150W","ipRating":"IP65"},
         powerOptions: ["100W","150W","200W"],
         applications: ["Patio","Parking Lot","Stadium","Warehouse","Commercial","Outdoor"],
-    }];
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+];
