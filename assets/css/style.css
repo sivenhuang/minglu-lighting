@@ -83,7 +83,7 @@ ul { list-style: none; }
 .nav a:hover, .nav a.active { color: var(--white); background: rgba(255,255,255,.1); }
 .nav-dropdown { position: relative; }
 .nav-dropdown-menu {
-    position: absolute; top: 100%; left: 0;
+    position: absolute; top: 100%; left: 0; z-index: 101;
     background: var(--gray-900); border-radius: var(--radius-md);
     padding: 8px 0; min-width: 220px;
     box-shadow: var(--shadow-xl);
@@ -1044,6 +1044,7 @@ ul { list-style: none; }
         top: 80px;
         left: 0;
         right: 0;
+        z-index: 99;
         background: rgba(15, 23, 42, .97);
         backdrop-filter: blur(20px);
         padding: 16px 24px;
