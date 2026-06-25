@@ -327,7 +327,7 @@ ul { list-style: none; }
 .stat-label { font-size: .95rem; color: rgba(255,255,255,.6); font-weight: 500; }
 
 /* === Section Headers === */
-.section { padding: 50px 0; }
+.section { padding: 10px 0; }
 .section-dark { background: var(--gray-50); }
 .section-header { text-align: center; margin-bottom: 64px; }
 .section-tag {
@@ -430,7 +430,7 @@ ul { list-style: none; }
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 .category-select {
     display: none; /* hidden on desktop */
