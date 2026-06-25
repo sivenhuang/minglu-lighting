@@ -481,8 +481,8 @@ ul { list-style: none; }
 /* === Filter Section (between hero and grid) === */
 .filter-section { padding: 16px 0 28px !important; }
 .category-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
     gap: 24px;
 }
 .category-grid .product-card-img {
