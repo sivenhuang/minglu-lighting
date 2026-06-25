@@ -1142,6 +1142,8 @@ ul { list-style: none; }
     .filter-bar { display: none; }            /* hide products.html filter buttons on mobile */
     .category-select { display: block; }       /* show dropdown on mobile */
     .products-grid { gap: 16px; }
+    .products-grid .product-card-img { height: auto; aspect-ratio: 4/3; }
+    .products-grid .product-card-img img { object-fit: contain; }
 
     /* === Category Page Product Cards — Mobile === */
     .category-grid .product-card-body { padding: 12px 14px; }
