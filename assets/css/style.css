@@ -478,7 +478,8 @@ ul { list-style: none; }
 /* Hide default arrow in IE */
 .category-select::-ms-expand { display: none; }
 
-/* === Category Page Product Cards === */
+/* === Filter Section (between hero and grid) === */
+.filter-section { padding: 16px 0 28px !important; }
 .category-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -1153,7 +1154,7 @@ ul { list-style: none; }
     /* Filter section — select between hero and product grid */
     .filter-section {
         padding: 14px 0 16px !important;
-        background: #0a1628 !important;
+        background: transparent !important;
     }
     .filter-section .category-select {
         display: block;
