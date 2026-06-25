@@ -1113,6 +1113,8 @@ ul { list-style: none; }
     .category-grid .product-card-img { aspect-ratio: 1/1; height: auto; }
     .category-grid .product-card-img img { object-fit: cover; padding: 0; }
     .category-grid .product-card-badge { display: none; }
+    .category-card .category-img { height: auto; }
+    .category-card .category-img img { object-fit: contain; }
     .category-filter-bar { display: none; }  /* hide button list on mobile */
     .filter-bar { display: none; }            /* hide products.html filter buttons on mobile */
     .category-select { display: block; }       /* show dropdown on mobile */
