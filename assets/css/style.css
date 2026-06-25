@@ -1099,18 +1099,23 @@ ul { list-style: none; }
 @media (max-width: 600px) {
     /* === Global Compact === */
     .container { padding: 0 12px; }
-    .hero { padding: 80px 0 16px; min-height: auto; }
-    .hero-content { padding: 0; gap: 16px; }
+    .hero { padding: 80px 0 8px !important; min-height: auto !important; }
+    .hero-content { padding: 0 !important; gap: 12px !important; }
     .hero h1 { font-size: 1.8rem; }
-    .hero-badge { margin-bottom: 12px; padding: 6px 14px; font-size: .78rem; }
-    .hero-text h1 { font-size: 1.6rem; }
-    .hero .btn-primary, .hero .btn-outline { padding: 12px 24px; font-size: .88rem; }
-    .hero p { margin-bottom: 12px; }
-    .hero-trust { gap: 12px; margin-top: 16px; }
-    .hero-trust span { font-size: .75rem; }
-    .hero-trust img { height: 18px; }
-    .stats-bar { padding: 24px 0; }
-    .stats-bar .container { grid-template-columns: 1fr 1fr; gap: 16px; }
+    .hero-badge { margin-bottom: 10px; padding: 5px 12px; font-size: .75rem; }
+    .hero-text h1 { font-size: 1.5rem; line-height: 1.15; margin-bottom: 8px; }
+    .hero .btn-primary, .hero .btn-outline { padding: 10px 20px; font-size: .82rem; }
+    .hero p { margin-bottom: 8px; font-size: .85rem; }
+    .hero-trust { gap: 8px; margin-top: 10px; }
+    .hero-trust span { font-size: .7rem; }
+    .hero-trust img { height: 16px; }
+    .solar-showcase { aspect-ratio: auto; height: 220px; }
+    .hero-carousel { height: 100%; }
+    .stats-bar { padding: 20px 0; }
+    .stats-bar .container { grid-template-columns: 1fr 1fr; gap: 12px; }
+    /* CTA card — mobile compact */
+    div[style*="margin-top:48px;padding:48px"] { margin-top: 32px !important; padding: 28px 16px !important; }
+
     .stats-bar .container { grid-template-columns: 1fr 1fr; }
     .section { padding: 50px 0; }
     .footer-grid { grid-template-columns: 1fr; }
