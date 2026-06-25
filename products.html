@@ -85,7 +85,7 @@
 <section class="section">
     <div class="container">
         <div class="filter-bar" id="filterBar"></div>
-        <select class="category-select" id="productFilterSelect" onchange="(function(){const cat=this.value;document.querySelectorAll('#filterBar .filter-btn').forEach(b=>b.classList.remove('active'));const btn=document.querySelector(`#filterBar [data-category=\"${cat}\"]`);if(btn)btn.classList.add('active');if(typeof renderProductsGrid==='function')renderProductsGrid(cat);})()">
+        <select class="category-select" id="productFilterSelect" onchange="var c=this.value;var f=document.querySelectorAll('#filterBar .filter-btn');f.forEach(function(b){b.classList.remove('active')});var a=document.querySelector('#filterBar [data-category=\x22'+c+'\x22]');if(a)a.classList.add('active');if(typeof renderProductsGrid==='function')renderProductsGrid(c)">
             <option value="all" selected>All Products</option>
             <option value="solar-street-light">Solar Street Light</option>
             <option value="solar-garden-light">Solar Garden Light</option>
