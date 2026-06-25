@@ -430,7 +430,7 @@ ul { list-style: none; }
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 }
 .category-select {
     display: none; /* hidden on desktop */
@@ -479,7 +479,7 @@ ul { list-style: none; }
 .category-select::-ms-expand { display: none; }
 
 /* === Filter Section (between hero and grid) === */
-.filter-section { padding: 16px 0 28px !important; }
+.filter-section { padding: 16px 0 8px !important; }
 
 /* CTA card — full width */
 .category-grid + div[style*="text-align:center;margin-top"],
