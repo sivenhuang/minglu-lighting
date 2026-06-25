@@ -1129,7 +1129,7 @@ ul { list-style: none; }
 
     /* === Page Hero — Mobile Compact === */
     .page-hero {
-        padding: 85px 0 16px;
+        padding: 85px 0 4px;
         overflow: visible;
     }
     .page-hero::before { display: none; }
@@ -1143,13 +1143,17 @@ ul { list-style: none; }
     .page-hero p {
         font-size: 0.8rem;
         line-height: 1.35;
-        margin-bottom: 10px;
+        margin-bottom: 0;
         color: rgba(255,255,255,.65);
     }
 
-    /* Category select inside hero — zero gap by design */
-    .hero-category-select { padding: 8px 4px 0; }
-    .hero-category-select .category-select {
+    /* Filter section — select between hero and product grid */
+    .filter-section {
+        padding: 0 0 16px !important;
+        background: var(--gray-900);
+    }
+    .filter-section .category-select {
+        display: block;
         width: 100%;
         margin: 0;
         padding: 13px 40px 13px 16px;
@@ -1157,8 +1161,8 @@ ul { list-style: none; }
         border-radius: 14px;
     }
 
-    /* Content section follows immediately after hero */
-    .page-hero + .section { padding-top: 12px !important; }
+    /* Content section follows filter */
+    .filter-section + .section { padding-top: 0 !important; }
 
     /* === Product Detail — complete mobile reset === */
     .product-detail { padding: 0; }
