@@ -555,6 +555,26 @@ function buildFooterProductLinks() {
 }
 
 /* ===== Init ===== */
+/* ===== Google Ads Conversion Tracking ===== */
+// TODO: 将 AW-XXXXXXX/REPLACE_WITH_CONVERSION_LABEL 替换为 Google Ads 后台的真实转化 ID / 标签
+var GOOGLE_ADS_SEND_TO = 'AW-XXXXXXX/REPLACE_WITH_CONVERSION_LABEL';
+function trackConversion(value, currency) {
+    if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+            'send_to': GOOGLE_ADS_SEND_TO,
+            'value': (typeof value !== 'undefined' && value !== null) ? value : 1.0,
+            'currency': currency || 'USD'
+        });
+    }
+}
+function initConversionTracking() {
+    // 监听所有 WhatsApp (wa.me) 链接点击 —— 事件委托捕获动态生成的卡片按钮
+    document.addEventListener('click', function(e) {
+        var a = e.target.closest ? e.target.closest('a[href*="wa.me"]') : null;
+        if (a) { trackConversion(); }
+    });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     initHeaderScroll();
     initMobileMenu();
@@ -569,6 +589,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initProjectsPage();
     initHeroCarousel();
     initBackToTop();
+    initConversionTracking();
 });
 
 /* ============ Back to Top ============ */
