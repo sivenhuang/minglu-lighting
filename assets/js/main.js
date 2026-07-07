@@ -589,6 +589,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initHeroCarousel();
     initBackToTop();
     initConversionTracking();
+    initCookieConsent();
 });
 
 /* ============ Back to Top ============ */
@@ -628,3 +629,19 @@ function initBackToTop() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 }
+
+/* ===== Cookie Consent Banner ===== */
+function initCookieConsent() {
+    var banner = document.getElementById('cookieBanner');
+    if (!banner) return;
+    if (localStorage.getItem('cookie_consent') === 'accepted') return;
+    // Show after a small delay
+    setTimeout(function() { banner.classList.add('show'); }, 500);
+}
+function acceptCookies() {
+    localStorage.setItem('cookie_consent', 'accepted');
+    var banner = document.getElementById('cookieBanner');
+    if (banner) { banner.classList.remove('show'); }
+}
+// Expose globally
+window.acceptCookies = acceptCookies;
