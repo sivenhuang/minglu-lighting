@@ -556,8 +556,7 @@ function buildFooterProductLinks() {
 
 /* ===== Init ===== */
 /* ===== Google Ads Conversion Tracking ===== */
-// TODO: 将 AW-XXXXXXX/REPLACE_WITH_CONVERSION_LABEL 替换为 Google Ads 后台的真实转化 ID / 标签
-var GOOGLE_ADS_SEND_TO = 'AW-XXXXXXX/REPLACE_WITH_CONVERSION_LABEL';
+var GOOGLE_ADS_SEND_TO = 'AW-18267116692/ONaACOu2sswcEJSpuIZE';
 function trackConversion(value, currency) {
     if (typeof gtag === 'function') {
         gtag('event', 'conversion', {
