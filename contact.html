@@ -47,18 +47,20 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
 .hero{padding:100px 0 24px;min-height:auto}
 .hero-text h1{font-size:1.6rem}
 }
-.quote-form{max-width:640px;margin:0 auto;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:32px}
-.quote-form h2{font-size:1.9rem;font-weight:800;margin-bottom:6px;color:#f1f5f9}
-.quote-form .sub{color:#94a3b8;margin-bottom:24px;font-size:.95rem}
+.quote-form{max-width:640px;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:32px;box-shadow:0 10px 40px rgba(0,0,0,.08)}
+.quote-form h2{font-size:1.9rem;font-weight:800;margin-bottom:6px;color:#0f172a}
+.quote-form .sub{color:#475569;margin-bottom:24px;font-size:.95rem}
 .form-row{margin-bottom:18px}
-.form-row label{display:block;font-size:.88rem;font-weight:600;margin-bottom:7px;color:#e2e8f0}
-.form-row input,.form-row select,.form-row textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(10,22,40,.6);color:#f1f5f9;font-size:.95rem;font-family:inherit;box-sizing:border-box}
+.form-row label{display:block;font-size:.88rem;font-weight:600;margin-bottom:7px;color:#0f172a}
+.form-row input,.form-row select,.form-row textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #cbd5e1;background:#ffffff;color:#0f172a;font-size:.95rem;font-family:inherit;box-sizing:border-box}
+.form-row input::placeholder,.form-row textarea::placeholder{color:#94a3b8}
 .form-row input:focus,.form-row select:focus,.form-row textarea:focus{outline:none;border-color:#22c55e;box-shadow:0 0 0 3px rgba(34,197,94,.15)}
 .form-row textarea{resize:vertical;min-height:120px}
 .form-submit{width:100%;background:#22c55e;color:#fff;border:none;padding:15px;border-radius:10px;font-size:1.05rem;font-weight:700;cursor:pointer;transition:background .2s;font-family:inherit}
-.form-submit:hover{background:#4ade80}
+.form-submit:hover{background:#16a34a}
 .form-note{font-size:.82rem;color:#64748b;margin-top:14px;text-align:center}
-.form-note a{color:#4ade80;text-decoration:none}
+.form-note a{color:#22c55e;text-decoration:none}
+.form-backup{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:12px 14px;margin-top:14px;font-size:.82rem;color:#166534}
 @media(max-width:600px){.quote-form{padding:22px 18px}}
 </style>
     <link rel="stylesheet" href="assets/css/style.css?v=7">
@@ -215,6 +217,7 @@ gtag('config', 'AW-18267116692');    // Google Ads conversion tracking
       </div>
       <button type="submit" class="form-submit">Send Inquiry</button>
       <p class="form-note">Prefer chat? Message us on <a href="https://wa.me/8618098910947" target="_blank">WhatsApp</a></p>
+      <p class="form-backup" id="formBackupMsg">If the server form is not configured yet, we'll open your email app with the inquiry details so you can send it directly.</p>
     </form>
   </div>
 </section>
@@ -287,6 +290,9 @@ gtag('config', 'AW-18267116692');    // Google Ads conversion tracking
     e.preventDefault();
     var name = document.getElementById('qf_name').value.trim();
     var email = document.getElementById('qf_email').value.trim();
+    var phone = document.getElementById('qf_phone').value.trim();
+    var product = document.getElementById('qf_product').value.trim();
+    var message = document.getElementById('qf_message').value.trim();
     if(!name || !email){
       alert('Please enter your name and email.');
       return;
@@ -294,6 +300,7 @@ gtag('config', 'AW-18267116692');    // Google Ads conversion tracking
     var action = form.getAttribute('action');
     var configured = action.indexOf('REPLACE_WITH_FORM_ID') === -1;
     if(configured){
+      // Real backend configured — submit normally
       fetch(action, {
         method: 'POST',
         body: new FormData(form),
@@ -301,7 +308,18 @@ gtag('config', 'AW-18267116692');    // Google Ads conversion tracking
       }).then(function(){ window.location.href = 'thank-you.html'; })
         .catch(function(){ window.location.href = 'thank-you.html'; });
     } else {
-      window.location.href = 'thank-you.html';
+      // Fallback: open user's email client with pre-filled inquiry
+      var subject = 'Quote Request from ' + encodeURIComponent(name) + ' via minglulighting.com';
+      var body = 'Name: ' + name + '%0D%0A' +
+                 'Email: ' + email + '%0D%0A' +
+                 'Phone/WhatsApp: ' + (phone || 'N/A') + '%0D%0A' +
+                 'Product of Interest: ' + (product || 'N/A') + '%0D%0A' +
+                 'Project Details:%0D%0A' + (message || 'N/A');
+      var backup = document.getElementById('formBackupMsg');
+      if(backup) backup.innerHTML = 'Opening your email app with the inquiry details...';
+      window.location.href = 'mailto:minglulighting@gmail.com?subject=' + subject + '&body=' + body;
+      // Also go to thank-you page after a short delay to fire conversion tracking
+      setTimeout(function(){ window.location.href = 'thank-you.html'; }, 1500);
     }
   });
 })();
