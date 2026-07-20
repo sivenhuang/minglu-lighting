@@ -342,7 +342,7 @@ function initProjectsPage() {
                     </div>
                     <div class="project-card-body">
                         <h3>${p.name}</h3>
-                        <div class="project-country">${p.country}</div>
+                        <div class="project-country">${p.tag || p.country || ''}</div>
                     </div>
                 </div>`;
             window._projectImages.push({ src: p.image, name: p.name });
