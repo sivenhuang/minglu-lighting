@@ -47,6 +47,19 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
 .hero{padding:100px 0 24px;min-height:auto}
 .hero-text h1{font-size:1.6rem}
 }
+.quote-form{max-width:640px;margin:0 auto;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:32px}
+.quote-form h2{font-size:1.9rem;font-weight:800;margin-bottom:6px;color:#f1f5f9}
+.quote-form .sub{color:#94a3b8;margin-bottom:24px;font-size:.95rem}
+.form-row{margin-bottom:18px}
+.form-row label{display:block;font-size:.88rem;font-weight:600;margin-bottom:7px;color:#e2e8f0}
+.form-row input,.form-row select,.form-row textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(10,22,40,.6);color:#f1f5f9;font-size:.95rem;font-family:inherit;box-sizing:border-box}
+.form-row input:focus,.form-row select:focus,.form-row textarea:focus{outline:none;border-color:#22c55e;box-shadow:0 0 0 3px rgba(34,197,94,.15)}
+.form-row textarea{resize:vertical;min-height:120px}
+.form-submit{width:100%;background:#22c55e;color:#fff;border:none;padding:15px;border-radius:10px;font-size:1.05rem;font-weight:700;cursor:pointer;transition:background .2s;font-family:inherit}
+.form-submit:hover{background:#4ade80}
+.form-note{font-size:.82rem;color:#64748b;margin-top:14px;text-align:center}
+.form-note a{color:#4ade80;text-decoration:none}
+@media(max-width:600px){.quote-form{padding:22px 18px}}
 </style>
     <link rel="stylesheet" href="assets/css/style.css?v=7">
 
@@ -94,7 +107,7 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-543007082');
-gtag('config', 'AW-18267116692');    // Google Ads — 替换为真实转化 ID
+gtag('config', 'AW-18267116692');    // Google Ads conversion tracking
     </script>
 
 </head>
@@ -174,6 +187,38 @@ gtag('config', 'AW-18267116692');    // Google Ads — 替换为真实转化 ID
   </div>
 </section>
 
+<!-- Quote Form -->
+<section class="section">
+  <div class="container">
+    <form class="quote-form" id="quoteForm" action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" novalidate>
+      <h2>Request a Quote</h2>
+      <p class="sub">Tell us about your project — we typically respond within 24 business hours.</p>
+      <div class="form-row">
+        <label for="qf_name">Name *</label>
+        <input type="text" id="qf_name" name="name" autocomplete="name" required>
+      </div>
+      <div class="form-row">
+        <label for="qf_email">Email *</label>
+        <input type="email" id="qf_email" name="email" autocomplete="email" required>
+      </div>
+      <div class="form-row">
+        <label for="qf_phone">Phone / WhatsApp</label>
+        <input type="text" id="qf_phone" name="phone" autocomplete="tel">
+      </div>
+      <div class="form-row">
+        <label for="qf_product">Product of Interest</label>
+        <input type="text" id="qf_product" name="product" placeholder="e.g. Solar street light CF2040">
+      </div>
+      <div class="form-row">
+        <label for="qf_message">Project Details</label>
+        <textarea id="qf_message" name="message" placeholder="Quantity, application scenario, target country, etc."></textarea>
+      </div>
+      <button type="submit" class="form-submit">Send Inquiry</button>
+      <p class="form-note">Prefer chat? Message us on <a href="https://wa.me/8618098910947" target="_blank">WhatsApp</a></p>
+    </form>
+  </div>
+</section>
+
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -233,6 +278,34 @@ gtag('config', 'AW-18267116692');    // Google Ads — 替换为真实转化 ID
     <button class="cookie-btn" onclick="acceptCookies()">Accept</button>
   </div>
 </div>
+
+<script>
+(function(){
+  var form = document.getElementById('quoteForm');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('qf_name').value.trim();
+    var email = document.getElementById('qf_email').value.trim();
+    if(!name || !email){
+      alert('Please enter your name and email.');
+      return;
+    }
+    var action = form.getAttribute('action');
+    var configured = action.indexOf('REPLACE_WITH_FORM_ID') === -1;
+    if(configured){
+      fetch(action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function(){ window.location.href = 'thank-you.html'; })
+        .catch(function(){ window.location.href = 'thank-you.html'; });
+    } else {
+      window.location.href = 'thank-you.html';
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
