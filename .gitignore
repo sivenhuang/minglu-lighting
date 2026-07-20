@@ -7,3 +7,6 @@ scrape-*.js
 update-*.js
 generate-*.js
 scrape-progress.json
+
+# WorkBuddy project memory (private, not for public repo)
+.workbuddy/
