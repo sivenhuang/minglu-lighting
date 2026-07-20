@@ -27,22 +27,25 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
 .nav a.active,.nav a:hover{color:#4ade80}
 .btn-quote{background:#22c55e;color:#fff;padding:10px 20px;border-radius:50px;text-decoration:none;font-weight:600;font-size:.85rem}
 .hero{position:relative;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0a1628 0%,#0f172a 30%,#134e2e 70%,#0a1628 100%);overflow:hidden;padding:140px 0 80px;min-height:80vh}
-.hero-content{position:relative;z-index:2;text-align:center;max-width:700px;padding:36px 0}
-.hero-check{width:96px;height:96px;border-radius:50%;background:rgba(34,197,94,.15);display:flex;align-items:center;justify-content:center;margin:0 auto 28px;border:2px solid rgba(34,197,94,.3)}
-.hero-check svg{width:48px;height:48px;color:#4ade80}
-.hero-text h1{font-size:3.2rem;font-weight:900;line-height:1.1;margin-bottom:18px;color:#ffffff}
+.hero-content{position:relative;z-index:2;text-align:center;max-width:720px;padding:36px 0;margin:0 auto}
+.hero-head{display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+.hero-check{width:64px;height:64px;border-radius:50%;background:rgba(34,197,94,.15);display:flex;align-items:center;justify-content:center;border:2px solid rgba(34,197,94,.3);flex-shrink:0}
+.hero-check svg{width:32px;height:32px;color:#4ade80}
+.hero-text h1{font-size:3rem;font-weight:900;line-height:1.1;color:#ffffff;margin:0}
 .hero-text .highlight{color:#4ade80}
-.hero-text p{font-size:1.15rem;color:#cbd5e1;margin-bottom:32px;max-width:560px;margin-left:auto;margin-right:auto}
-.thank-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:32px;margin:32px auto 0;text-align:left;backdrop-filter:blur(8px)}
-.thank-card h3{color:#ffffff;font-size:1.2rem;margin-bottom:16px;display:flex;align-items:center;gap:10px}
-.thank-card ol{margin:0;padding-left:20px;color:#cbd5e1}
-.thank-card li{margin-bottom:10px}
-.thank-card a{color:#4ade80}
-.hero-actions{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:8px}
+.hero-text p{font-size:1.1rem;color:#cbd5e1;margin:16px auto 32px;max-width:560px;line-height:1.6}
+.hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
 .btn-primary{background:#22c55e;color:#fff;padding:14px 28px;border-radius:50px;text-decoration:none;font-weight:700;font-size:1rem;display:inline-flex;align-items:center;gap:10px;transition:background .2s}
 .btn-primary:hover{background:#4ade80}
 .btn-outline{background:transparent;color:#f1f5f9;border:1px solid rgba(255,255,255,.2);padding:14px 28px;border-radius:50px;text-decoration:none;font-weight:700;font-size:1rem;transition:border-color .2s}
 .btn-outline:hover{border-color:#4ade80}
+.thank-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:28px 32px;margin:0 auto;text-align:center;max-width:560px;backdrop-filter:blur(8px)}
+.thank-card h3{color:#ffffff;font-size:1.1rem;margin-bottom:18px;display:flex;align-items:center;justify-content:center;gap:8px;font-weight:700}
+.thank-card ol{margin:0;padding:0;list-style:none;text-align:left;color:#cbd5e1;display:inline-block}
+.thank-card li{margin-bottom:12px;padding-left:28px;position:relative;line-height:1.5}
+.thank-card li::before{content:'✅';position:absolute;left:0;top:0}
+.thank-card a{color:#4ade80;text-decoration:none}
+.thank-card a:hover{text-decoration:underline}
 .mobile-menu-btn{display:none}
 @media(max-width:900px){
 .hero-text h1{font-size:2.2rem}
@@ -50,11 +53,19 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
 .mobile-menu-btn{display:flex}
 }
 @media(max-width:600px){
-.container{padding:0 12px}
+.container{padding:0 16px}
 .hero{padding:120px 0 48px;min-height:auto}
-.hero-text h1{font-size:1.8rem}
-.hero-text p{font-size:1rem}
-.thank-card{padding:22px 18px}
+.hero-head{gap:12px}
+.hero-check{width:52px;height:52px}
+.hero-check svg{width:26px;height:26px}
+.hero-text h1{font-size:1.7rem}
+.hero-text p{font-size:1rem;margin:12px auto 24px}
+.hero-actions{flex-direction:column;align-items:stretch;gap:12px}
+.btn-primary,.btn-outline{width:100%;justify-content:center}
+.thank-card{padding:22px 18px;text-align:left}
+.thank-card h3{justify-content:flex-start}
+.thank-card ol{display:block}
+.thank-card li{padding-left:26px}
 }
 </style>
     <link rel="stylesheet" href="assets/css/style.css?v=7">
@@ -116,13 +127,15 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <div class="hero-check">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <div class="hero-head">
+        <div class="hero-check">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+        <div class="hero-text">
+          <h1>Thank You! <span class="highlight">Request Received</span></h1>
+        </div>
       </div>
-      <div class="hero-text">
-        <h1>Thank You!<span class="highlight"> Request Received</span></h1>
-        <p>Your quote inquiry has been submitted. A member of our sales team will reach out to you within 24 business hours.</p>
-      </div>
+      <p>Your quote inquiry has been submitted. A member of our sales team will reach out to you within 24 business hours.</p>
       <div class="hero-actions">
         <a href="https://wa.me/8618098910947" class="btn-primary" target="_blank">
           <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.47 14.64c-.27-.13-1.62-.8-1.87-.89-.25-.09-.43-.13-.62.13-.19.27-.75.89-.92 1.07-.17.18-.34.2-.62.07-.27-.13-1.15-.42-2.19-1.35-.81-.73-1.36-1.63-1.52-1.9-.17-.27 0-.42.13-.55.13-.13.27-.34.41-.52.13-.17.17-.27.27-.47.09-.2.04-.37 0-.5-.04-.13-.62-1.5-.85-2.06-.22-.54-.45-.47-.62-.48h-.52c-.17 0-.47.07-.7.37-.24.3-.92.9-.92 2.2s.94 2.56 1.07 2.73c.13.17 1.88 2.87 4.57 3.88.64.27 1.13.43 1.52.55.64.2 1.22.17 1.68.1.52-.08 1.62-.66 1.85-1.3.23-.63.23-1.17.16-1.3-.07-.13-.25-.2-.52-.33zM12.02 21.47c-1.14 0-2.27-.17-3.34-.5l-.24-.09-2.49.65.67-2.43-.16-.25A9.18 9.18 0 012.7 12.02C2.7 6.98 6.83 3 12.02 3c2.42 0 4.7.94 6.4 2.64a8.98 8.98 0 012.6 6.38c0 5.2-4.13 9.45-9 9.45z"/></svg>
@@ -131,7 +144,7 @@ body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;ba
         <a href="products.html" class="btn-outline">Browse Products</a>
       </div>
       <div class="thank-card">
-        <h3><span>✅</span> What happens next?</h3>
+        <h3>What happens next?</h3>
         <ol>
           <li>Our sales team reviews your project details within 24 business hours.</li>
           <li>We send a tailored quote, datasheet, and delivery options to your email.</li>
