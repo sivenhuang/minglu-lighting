@@ -973,21 +973,29 @@ ul { list-style: none; }
     color: var(--white);
 }
 
-/* Product detail CTA buttons — make Get a Quote & WhatsApp equal width/centered */
-.product-detail-info .btn-quote,
-.product-detail-info .btn-whatsapp-lg {
-    display: flex !important;
+/* Product detail CTA buttons — side-by-side row */
+.product-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 8px 0 16px;
+}
+.product-cta-row .btn-quote,
+.product-cta-row .btn-whatsapp-lg {
+    flex: 1 1 auto;
+    min-width: 140px;
+    max-width: 220px;
+    margin: 0 !important;
+    display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    width: 100% !important;
-    max-width: 280px !important;
-    margin: 0 auto 16px !important;
     text-align: center;
 }
 @media (max-width: 768px) {
-    .product-detail-info .btn-quote,
-    .product-detail-info .btn-whatsapp-lg {
-        max-width: 100% !important;
+    .product-cta-row .btn-quote,
+    .product-cta-row .btn-whatsapp-lg {
+        max-width: 100%;
     }
 }
 
