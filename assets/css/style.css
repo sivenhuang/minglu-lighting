@@ -983,19 +983,30 @@ ul { list-style: none; }
 }
 .product-cta-row .btn-quote,
 .product-cta-row .btn-whatsapp-lg {
-    flex: 1 1 auto;
-    min-width: 140px;
-    max-width: 220px;
+    flex: 0 0 auto;
     margin: 0 !important;
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
     text-align: center;
+    white-space: nowrap;
+    padding: 14px 28px;
+    height: 52px;
+    box-sizing: border-box;
+}
+.product-cta-row .btn-quote {
+    min-width: 140px;
+    max-width: 180px;
+}
+.product-cta-row .btn-whatsapp-lg {
+    min-width: 220px;
+    max-width: 280px;
 }
 @media (max-width: 768px) {
     .product-cta-row .btn-quote,
     .product-cta-row .btn-whatsapp-lg {
         max-width: 100%;
+        flex: 1 1 45%;
     }
 }
 
