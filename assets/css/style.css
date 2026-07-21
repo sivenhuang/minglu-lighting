@@ -973,16 +973,20 @@ ul { list-style: none; }
     color: var(--white);
 }
 
-/* Product detail 'Get a Quote' button — override inline full-width block */
-.product-detail-info .btn-quote {
-    display: block !important;
+/* Product detail CTA buttons — make Get a Quote & WhatsApp equal width/centered */
+.product-detail-info .btn-quote,
+.product-detail-info .btn-whatsapp-lg {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
     width: 100% !important;
-    max-width: fit-content !important;
+    max-width: 280px !important;
     margin: 0 auto 16px !important;
     text-align: center;
 }
 @media (max-width: 768px) {
-    .product-detail-info .btn-quote {
+    .product-detail-info .btn-quote,
+    .product-detail-info .btn-whatsapp-lg {
         max-width: 100% !important;
     }
 }
