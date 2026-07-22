@@ -76,7 +76,7 @@
 | Factory 1–3 | `assets/images/factory/21.jpg`, `22.jpg`, `20.webp` |
 | Product: solar street | `assets/images/products/solar-street-light-cf2040-1.jpg` |
 | Product: garden | `assets/images/products/solar-garden-light-ls500-1.jpg` |
-| Product: flood | `assets/images/products/solar-flood-light-bw100-2.png` |
+| Product: flood | `assets/images/products/solar-flood-light-bw100-2.webp` |
 | Product: high bay | `assets/images/led-high-bay/20210607112803667.webp` |
 | Project shots | `assets/images/projects/` (pick 2–3 best) |
 
