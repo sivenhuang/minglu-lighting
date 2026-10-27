@@ -306,11 +306,36 @@ section.blk{padding:56px 0}
 
 <script>
 (function(){
+  var LABEL='solar-flood-lights';
+
+  // 表单提交 -> generate_lead
   var form=document.getElementById('lpForm');
-  if(!form) return;
-  form.addEventListener('submit',function(){
+  if(form){
+    form.addEventListener('submit',function(){
+      if(typeof gtag==='function'){
+        gtag('event','generate_lead',{event_category:'form',event_label:LABEL,value:1});
+      }
+    });
+  }
+
+  // WhatsApp 链接点击 -> generate_lead + Ads conversion（会话内只记一次）
+  document.addEventListener('click',function(e){
+    var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me"]'):null;
+    if(!a) return;
+    if(a.__mingluLeadTracked) return;
+    // 会话内已计过询盘则不重复上报（检查必须在处理器内部，否则整个脚本会被提前 return）
+    try{
+      if(sessionStorage.getItem('minglu_lead_fired')) return;
+    }catch(e){}
+    a.__mingluLeadTracked=true;
+    try{ sessionStorage.setItem('minglu_lead_fired','1'); }catch(e){}
     if(typeof gtag==='function'){
-      gtag('event','generate_lead',{event_category:'form',event_label:'solar-flood-lights',value:1});
+      gtag('event','generate_lead',{
+        event_category:'engagement',event_label:LABEL+'_whatsapp',value:1,currency:'USD'
+      });
+      gtag('event','conversion',{
+        send_to:'AW-18267116692/ONaACOu2sswcEJSpuIZE',value:1,currency:'USD'
+      });
     }
   });
 })();

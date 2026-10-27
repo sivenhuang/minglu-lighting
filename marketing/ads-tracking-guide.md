@@ -16,13 +16,15 @@
 | 转化事件（Ads） | `conversion` | 同上 | web 标签直发转化 |
 
 ### 询盘转化触发点
-1. **任意 WhatsApp 链接点击**（`main.js` 事件委托，`a[href*="wa.me"]`）→ 覆盖 146/147 页，含动态生成的产品卡片按钮。
+1. **任意 WhatsApp 链接点击**
+   - `main.js` 全局事件委托（`a[href*="wa.me"]`）→ 覆盖 142 个加载 main.js 的页面，含动态生成的产品卡片按钮。
+   - `lp/` 5 个落地页为独立模板（不加载 main.js），各自内联一份等价监听，监听其 3 个 WhatsApp 链接。
 2. **contact.html 表单提交** → `generate_lead`（category=form, label=project_inquiry）。
 3. **thank-you.html 到达** → `generate_lead` + `conversion`，sessionStorage 防止刷新重复计数。
 4. **lp/ 5 个落地页表单提交** → `generate_lead`（含隐藏 campaign 字段区分投放来源）。
 
 ### 防重复机制
-- `main.js` 用 `sessionStorage['minglu_lead_fired']` 保证**同一会话只记一次**。
+- `main.js` 与 `lp/` 页均用 `sessionStorage['minglu_lead_fired']` 保证**同一会话只记一次**。
 - 同一元素用 `__mingluLeadTracked` 标记，防止一次点击命中多个监听器。
 - 跨会话的新访问仍计为新转化（用 sessionStorage 而非 localStorage 的原因）。
 
