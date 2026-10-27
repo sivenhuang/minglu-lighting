@@ -555,22 +555,67 @@ function buildFooterProductLinks() {
 }
 
 /* ===== Init ===== */
-/* ===== Google Ads Conversion Tracking ===== */
+/* ===== Google Ads + GA4 Conversion Tracking ===== */
 var GOOGLE_ADS_SEND_TO = 'AW-18267116692/ONaACOu2sswcEJSpuIZE';
+var LEAD_CONVERSION_KEY = 'minglu_lead_fired';
+
+/**
+ * 记录一次询盘转化。
+ * 同时打两个通道：
+ *   1) GA4  —— generate_lead 事件（可在 GA4 标记为「关键事件」并导入 Google Ads）
+ *   2) Ads  —— conversion 事件 + send_to 转化 ID（web 标签直发，gclid 归因更准）
+ * 注意：若日后在 Ads 后台把 GA4 关键事件也导入为「主要」转化，
+ *       需把这里的 Ads conversion 降为「次要」或停用，否则会重复计数。
+ *       详见 marketing/ads-tracking-guide.md
+ */
 function trackConversion(value, currency) {
-    if (typeof gtag === 'function') {
-        gtag('event', 'conversion', {
-            'send_to': GOOGLE_ADS_SEND_TO,
-            'value': (typeof value !== 'undefined' && value !== null) ? value : 1.0,
-            'currency': currency || 'USD'
-        });
-    }
+    if (typeof gtag !== 'function') return;
+    var v = (typeof value !== 'undefined' && value !== null) ? value : 1.0;
+    var c = currency || 'USD';
+
+    // 1) GA4 通道：generate_lead 关键事件
+    gtag('event', 'generate_lead', {
+        'event_category': 'engagement',
+        'event_label': 'whatsapp_click',
+        'value': v,
+        'currency': c
+    });
+
+    // 2) Ads 通道：web 标签直发转化
+    gtag('event', 'conversion', {
+        'send_to': GOOGLE_ADS_SEND_TO,
+        'value': v,
+        'currency': c
+    });
 }
+
+/**
+ * 同一会话内只记一次询盘转化，防止用户反复点击造成重复计数。
+ * 用 sessionStorage 而非 localStorage：跨会话的新访问仍应被计为新转化。
+ */
+function trackConversionOnce() {
+    try {
+        if (sessionStorage.getItem(LEAD_CONVERSION_KEY)) return false;
+        sessionStorage.setItem(LEAD_CONVERSION_KEY, '1');
+    } catch (e) {
+        // 隐私模式下 sessionStorage 可能不可用，降级为每次都记
+    }
+    return true;
+}
+
 function initConversionTracking() {
     // 监听所有 WhatsApp (wa.me) 链接点击 —— 事件委托捕获动态生成的卡片按钮
     document.addEventListener('click', function(e) {
         var a = e.target.closest ? e.target.closest('a[href*="wa.me"]') : null;
-        if (a) { trackConversion(); }
+        if (!a) return;
+
+        // 防止一次点击同时命中多个监听器导致重复上报
+        if (a.__mingluLeadTracked) return;
+        a.__mingluLeadTracked = true;
+
+        if (trackConversionOnce()) {
+            trackConversion();
+        }
     });
 }
 
